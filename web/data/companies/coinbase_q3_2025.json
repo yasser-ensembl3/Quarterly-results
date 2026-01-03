@@ -1,0 +1,247 @@
+{
+  "id": {
+    "company": "Coinbase Global, Inc.",
+    "ticker": "COIN",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "crypto",
+    "report_date": "2025-10-31"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 1868.7,
+      "revenue_yoy_pct": 55.1,
+      "revenue_qoq_pct": null,
+      "gross_profit": null,
+      "gross_margin_pct": null,
+      "operating_income": 480.5,
+      "operating_margin_pct": 25.7,
+      "net_income": 432.6,
+      "net_margin_pct": 23.1,
+      "ebitda": null,
+      "adjusted_ebitda": 801.0
+    },
+    "per_share": {
+      "eps_basic": 1.65,
+      "eps_diluted": 1.5
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": null,
+      "capex": null
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 8676.3,
+      "total_debt": 7201.5,
+      "net_cash": 1474.8
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "Transaction Revenue",
+        "revenue": 1046.3,
+        "pct_of_total": 56.0,
+        "yoy_pct": 82.8
+      },
+      {
+        "name": "Subscription and Services Revenue",
+        "revenue": 746.7,
+        "pct_of_total": 40.0,
+        "yoy_pct": 34.3
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 1518.8,
+        "pct_of_total": 81.3
+      },
+      {
+        "region": "International",
+        "revenue": 349.9,
+        "pct_of_total": 18.7
+      }
+    ]
+  },
+  "operations": {
+    "employees": 4795,
+    "employee_change_qoq": 12,
+    "key_metrics": [
+      {
+        "name": "Assets on Platform",
+        "value": "516",
+        "unit": "billions_usd",
+        "context": "Total assets managed, up 95% YoY"
+      },
+      {
+        "name": "Trading Volume",
+        "value": "295",
+        "unit": "billions_usd",
+        "context": "Quarterly trading volume, up 59% YoY"
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": 295000,
+    "transaction_revenue": 1046.3,
+    "assets_on_platform": 516000,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": 74000,
+    "consumer_spot_trading_volume": 59000,
+    "derivatives_volume": 840000,
+    "usdc_held": 15000,
+    "usdc_market_cap": 74000
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": [
+        {
+          "metric": "Transaction revenue",
+          "guidance": "Approximately $385 million for October"
+        },
+        {
+          "metric": "Subscription and services revenue",
+          "guidance": "$710-790 million"
+        },
+        {
+          "metric": "Operating expenses",
+          "guidance": "$925-975 million"
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_guidance": null,
+      "other": []
+    },
+    "commentary": "The fourth quarter is off to a strong start, and we expect continued growth driven by higher average crypto prices and the expansion of the Coinbase One subscriber base."
+  },
+  "strategic": {
+    "acquisitions": [
+      {
+        "name": "Deribit (Sentillia B.V.)",
+        "details": "Acquired for $4.3 billion in August 2025, leading crypto options platform",
+        "impact": "Strengthens position in crypto derivatives market, contributed $52M to Q3 revenue"
+      },
+      {
+        "name": "Gm Echo Ltd",
+        "details": "Acquired for $150 million to expand onchain capital raising capabilities",
+        "impact": "Enhances private and public sales infrastructure"
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "Circle",
+        "details": "Strategic partnership for USDC creation and redemption services"
+      },
+      {
+        "partner": "Grayscale",
+        "details": "Staking services partnership for ETF products"
+      },
+      {
+        "partner": "Citi and JP Morgan",
+        "details": "Traditional finance partnerships to expand crypto offerings"
+      }
+    ],
+    "product_launches": [
+      {
+        "product": "U.S. Perpetual Futures",
+        "details": "First CFTC-regulated perpetual futures in the U.S.",
+        "impact": "Expands derivatives trading capabilities"
+      },
+      {
+        "product": "Coinbase One Card",
+        "details": "Credit card offering up to 4% bitcoin rewards",
+        "impact": "Increases platform engagement and customer retention"
+      },
+      {
+        "product": "The Everything Exchange",
+        "details": "Expanded from 300 to over 40,000 tradable assets",
+        "impact": "Significantly broadens trading opportunities"
+      }
+    ],
+    "initiatives": [
+      {
+        "initiative": "USDC Stablecoin Adoption",
+        "progress": "Became largest contributor to USDC market cap growth",
+        "expected_impact": "Diversified revenue stream less dependent on trading volatility"
+      },
+      {
+        "initiative": "International Expansion",
+        "progress": "18.7% of revenue from international markets",
+        "expected_impact": "Reduced dependence on U.S. regulatory environment"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Regulatory Environment",
+        "details": "Extensive and evolving crypto regulations could impact operations",
+        "mitigation": "Proactive compliance and regulatory engagement"
+      },
+      {
+        "risk": "Crypto Market Volatility",
+        "details": "Transaction revenue highly dependent on crypto asset prices and trading volumes",
+        "mitigation": "Diversifying revenue streams through stablecoins and subscription services"
+      },
+      {
+        "risk": "Cybersecurity Threats",
+        "details": "Potential for security breaches and cyberattacks",
+        "mitigation": "Bank-level security encryption and comprehensive insurance coverage"
+      },
+      {
+        "risk": "Increased Competition",
+        "details": "Competition from Binance's renewed U.S. push and other platforms",
+        "mitigation": "Focus on product quality, compliance, and innovation"
+      }
+    ],
+    "competitive_advantages": [
+      "First CFTC-regulated perpetual futures in the U.S.",
+      "Largest contributor to USDC market cap",
+      "Strong regulatory compliance track record",
+      "Comprehensive product ecosystem",
+      "Leading U.S. crypto exchange with strong derivatives position via Deribit"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Exceptional financial performance with 55% revenue growth and 473% net income growth year-over-year",
+      "Successful revenue diversification with subscription and services representing 40% of total revenue",
+      "Strategic Deribit acquisition for $4.3B significantly enhances derivatives market position",
+      "Strong balance sheet with $8.7B in cash providing significant financial flexibility",
+      "The Everything Exchange expansion from 300 to 40,000+ tradable assets demonstrates platform scalability",
+      "USDC stablecoin strategy proving successful as largest contributor to market cap growth"
+    ],
+    "key_concerns": [
+      "High dependence on crypto market volatility for transaction revenue (56% of total)",
+      "Significant acquisition spending of $4.45B may impact near-term cash flow",
+      "Regulatory uncertainty continues to pose operational risks",
+      "Increased competition from established players like Binance re-entering U.S. market"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Brian Armstrong, CEO",
+        "quote": "Our mission is to increase economic freedom in the world at Coinbase, and crypto is the technology that we're going to harness to get there."
+      },
+      {
+        "speaker": "Alesia Haas, CFO",
+        "quote": "We had total revenue of $1.9 billion, net income of $433 million, Adjusted EBITDA was $801 million, and Adjusted Net Income was $421 million."
+      },
+      {
+        "speaker": "Management",
+        "quote": "We are progressing toward the Everything Exchange vision, and scaling payments by advancing stablecoin adoption with USDC."
+      }
+    ],
+    "investment_thesis": "Coinbase delivered exceptional Q3 2025 results with strong revenue diversification and strategic positioning through the Deribit acquisition. The company is successfully executing its Everything Exchange vision while building a more stable revenue base through stablecoins and subscription services, positioning it well for continued growth in the evolving crypto ecosystem."
+  },
+  "metadata": {
+    "data_quality_score": 0.9,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and strategic data available. Missing some traditional cash flow metrics but sector-specific metrics are well-represented. Strong qualitative information on strategic initiatives and market positioning."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

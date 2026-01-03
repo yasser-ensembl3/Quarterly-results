@@ -1,0 +1,182 @@
+{
+  "id": {
+    "company": "eBay Inc.",
+    "ticker": "EBAY",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "ecommerce",
+    "report_date": "2025-10-29"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 2820,
+      "revenue_yoy_pct": 9.0,
+      "revenue_qoq_pct": null,
+      "gross_profit": 1999,
+      "gross_margin_pct": 70.9,
+      "operating_income": 576,
+      "operating_margin_pct": 20.4,
+      "net_income": 597,
+      "net_margin_pct": 21.2,
+      "ebitda": null,
+      "adjusted_ebitda": null
+    },
+    "per_share": {
+      "eps_basic": 1.31,
+      "eps_diluted": 1.28
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": 803,
+      "capex": 131
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 2423,
+      "total_debt": 6751,
+      "net_cash": -4328
+    }
+  },
+  "segments": {
+    "by_business": [],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 1466,
+        "pct_of_total": 52.0
+      },
+      {
+        "region": "International",
+        "revenue": 1354,
+        "pct_of_total": 48.0
+      }
+    ]
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Active Buyers",
+        "value": "134",
+        "unit": "millions",
+        "context": "Total active buyers on platform"
+      },
+      {
+        "name": "Gross Merchandise Volume",
+        "value": "20105",
+        "unit": "millions_usd",
+        "context": "Total value of goods sold on platform"
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": null,
+    "transaction_revenue": null,
+    "assets_on_platform": null,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": null,
+    "gmv": 20105,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "active_sellers": null,
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": 2830,
+      "revenue_high": 2890,
+      "revenue_midpoint": 2860,
+      "other": [
+        "Diluted GAAP EPS: 0.96 - 1.01",
+        "Diluted Non-GAAP EPS: 1.31 - 1.36"
+      ]
+    },
+    "full_year": {
+      "revenue_guidance": "10.97 - 11.03 billion",
+      "other": [
+        "Diluted GAAP EPS: 4.09 - 4.14",
+        "Diluted Non-GAAP EPS: 5.42 - 5.47"
+      ]
+    },
+    "commentary": "eBay is focused on sustainable growth and leveraging its financial position to accelerate strategic initiatives."
+  },
+  "strategic": {
+    "acquisitions": [
+      {
+        "name": "Tise",
+        "details": "A consumer-to-consumer social marketplace",
+        "impact": "Strengthens eBay's C2C expertise and connection with Gen Z and Millennial shoppers"
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "Marks & Spencer",
+        "details": "Launch of a dedicated resale service on eBay"
+      }
+    ],
+    "product_launches": [
+      {
+        "product": "AI-powered messaging support",
+        "details": "Unveiled at eBay OPEN25",
+        "impact": "Improves seller experience and profitability"
+      }
+    ],
+    "initiatives": [
+      {
+        "initiative": "eBay Endless Runway",
+        "progress": "Expanded collaborations with top designers",
+        "expected_impact": "Enhances engagement with fashion enthusiasts"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Foreign currency volatility",
+        "details": "Could impact financial results",
+        "mitigation": "FX-Neutral reporting and hedging strategies"
+      }
+    ],
+    "competitive_advantages": [
+      "Strong presence in collectibles and fashion",
+      "Innovative AI and technology integrations",
+      "30 years of unique marketplace insights"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Strong revenue growth of 9% year-over-year to $2.82 billion",
+      "Robust free cash flow generation of $803 million",
+      "Returned $757 million to shareholders through buybacks and dividends",
+      "Strategic AI integration and partnerships driving future growth",
+      "Strong gross margins at 70.9%"
+    ],
+    "key_concerns": [
+      "Net income declined 6% year-over-year despite revenue growth indicating margin pressure",
+      "High debt burden with $6.75 billion total debt versus $2.42 billion cash",
+      "Foreign currency volatility risks"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Jamie Iannone, CEO",
+        "quote": "We're transforming the eBay experience through AI built on 30 years of unique insights."
+      },
+      {
+        "speaker": "Peggy Alford, CFO",
+        "quote": "Our robust Q3 performance reflects strong operational discipline as we continue on the path of sustainable growth."
+      }
+    ],
+    "investment_thesis": "eBay demonstrates solid operational execution with 9% revenue growth and strong cash generation, while strategically investing in AI capabilities and partnerships to capture growth in the circular economy and resale markets. However, margin pressure and high debt levels present near-term challenges."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and strategic data available. Missing some operational metrics like employee count and detailed segment breakdown."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

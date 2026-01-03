@@ -1,0 +1,176 @@
+{
+  "id": {
+    "company": "FIGS, Inc.",
+    "ticker": "FIGS",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "ecommerce",
+    "report_date": "2025-11-06"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 151.7,
+      "revenue_yoy_pct": 8.2,
+      "revenue_qoq_pct": null,
+      "gross_profit": 106.068,
+      "gross_margin_pct": 69.9,
+      "operating_income": 9.635,
+      "operating_margin_pct": 6.4,
+      "net_income": 8.7,
+      "net_margin_pct": 5.8,
+      "ebitda": null,
+      "adjusted_ebitda": 18.9
+    },
+    "per_share": {
+      "eps_basic": 0.05,
+      "eps_diluted": 0.05
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": -5.063,
+      "capex": 5.305
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 46.454,
+      "total_debt": null,
+      "net_cash": 46.454
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "Scrubwear",
+        "revenue": 127.0,
+        "pct_of_total": 83.7,
+        "yoy_pct": 8.4
+      },
+      {
+        "name": "Non-Scrubwear",
+        "revenue": 24.6,
+        "pct_of_total": 16.3,
+        "yoy_pct": 7.2
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 127.3,
+        "pct_of_total": 83.9
+      },
+      {
+        "region": "International",
+        "revenue": 24.3,
+        "pct_of_total": 16.1
+      }
+    ]
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Active Customers",
+        "value": "2.8",
+        "unit": "millions",
+        "context": "Total active customer base"
+      },
+      {
+        "name": "Net Revenue per Active Customer",
+        "value": "209",
+        "unit": "USD",
+        "context": "2.0% increase year over year"
+      },
+      {
+        "name": "Average Order Value",
+        "value": "114",
+        "unit": "USD",
+        "context": "5.6% increase year over year"
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": null,
+    "transaction_revenue": null,
+    "assets_on_platform": null,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": null,
+    "gmv": null,
+    "orders": null,
+    "aov": 114,
+    "prime_members": null,
+    "active_sellers": null,
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": "Net revenues growth vs. 2024 up approximately 7.0%",
+      "other": [
+        "Adjusted EBITDA Margin approximately 10.3%"
+      ]
+    },
+    "commentary": "Management indicates strong execution against plan with improved consistency across the business, positioning for sustainable growth despite tariff headwinds"
+  },
+  "strategic": {
+    "acquisitions": [],
+    "partnerships": [],
+    "product_launches": [],
+    "initiatives": [
+      "Focus on expanding product categories and international markets"
+    ],
+    "risks": [
+      {
+        "risk": "Tariff headwinds",
+        "details": "Despite tariff headwinds, expectations for full year net revenues and adjusted EBITDA margin are increased",
+        "mitigation": "Improving profitability and ample balance sheet flexibility"
+      }
+    ],
+    "competitive_advantages": [
+      "Leading healthcare apparel brand",
+      "Strong brand health and community engagement",
+      "Strong gross margin of 69.9% demonstrates pricing power and operational efficiency"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Achieved strongest quarterly growth rate in two years with 8.2% revenue growth",
+      "Net income margin improved significantly to 5.8%",
+      "Strong gross margin of 69.9% demonstrates pricing power and operational efficiency",
+      "Increasing full-year 2025 outlook despite tariff challenges",
+      "Both scrubwear and non-scrubwear segments showing healthy growth"
+    ],
+    "key_concerns": [
+      "Negative free cash flow of $5.1 million",
+      "Tariff headwinds creating cost pressures",
+      "Heavy dependence on US market (83.9% of revenue)"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Trina Spear, CEO",
+        "quote": "Our diligent work this year to support our community with a great product assortment and impactful brand moments has been instrumental in driving momentum."
+      },
+      {
+        "speaker": "Sarah Oughtred, CFO",
+        "quote": "With improving profitability and ample balance sheet flexibility, we believe we are positioned to remain on offense and drive the sustainable growth story we see ahead."
+      }
+    ],
+    "investment_thesis": "FIGS demonstrates strong brand positioning in healthcare apparel with improving profitability metrics and consistent growth across both core and non-core segments. The company's strong balance sheet and expanding international presence position it well for sustainable growth despite near-term tariff challenges."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and operational data available. Some cash flow details missing but key metrics well-documented. Strong qualitative information on strategy and outlook."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

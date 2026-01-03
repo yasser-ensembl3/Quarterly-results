@@ -1,0 +1,200 @@
+{
+  "id": {
+    "company": "YETI Holdings, Inc.",
+    "ticker": "YETI",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "retail",
+    "report_date": "2025-11-06"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 487.8,
+      "revenue_yoy_pct": 2.0,
+      "revenue_qoq_pct": null,
+      "gross_profit": 272.5,
+      "gross_margin_pct": 55.9,
+      "operating_income": 54.4,
+      "operating_margin_pct": 11.1,
+      "net_income": 39.4,
+      "net_margin_pct": 8.1,
+      "ebitda": null,
+      "adjusted_ebitda": null
+    },
+    "per_share": {
+      "eps_basic": 0.49,
+      "eps_diluted": 0.48
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": 50.067,
+      "capex": 50.0
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 164.5,
+      "total_debt": 74.9,
+      "net_cash": 89.6
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "Direct-to-consumer",
+        "revenue": 288.7,
+        "pct_of_total": 59.2,
+        "yoy_pct": 3.0
+      },
+      {
+        "name": "Wholesale",
+        "revenue": 199.0,
+        "pct_of_total": 40.8,
+        "yoy_pct": 1.0
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 387.3,
+        "pct_of_total": 79.4
+      },
+      {
+        "region": "International",
+        "revenue": 100.4,
+        "pct_of_total": 20.6
+      }
+    ]
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Product Innovation Platforms",
+        "value": "13",
+        "unit": "platforms",
+        "context": "New products launched across 13 platforms including bags, cookware, and shaker bottles"
+      },
+      {
+        "name": "Direct-to-Consumer Mix",
+        "value": "59.2",
+        "unit": "percent",
+        "context": "Percentage of revenue from direct-to-consumer channel"
+      },
+      {
+        "name": "International Revenue Mix",
+        "value": "20.6",
+        "unit": "percent",
+        "context": "International sales grew 14% while US sales declined 1%"
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": null,
+    "transaction_revenue": null,
+    "assets_on_platform": null,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": null,
+    "gmv": null,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "active_sellers": null,
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null,
+    "retail_metrics": {
+      "coolers_equipment_revenue": 215.4,
+      "drinkware_revenue": 263.8,
+      "coolers_equipment_growth": 12.0,
+      "drinkware_decline": -4.0,
+      "product_categories": 2
+    }
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": "Adjusted sales to increase 1% to 2%",
+      "other": [
+        "Adjusted operating income as a percentage of adjusted sales between 14.0% and 14.5%",
+        "Adjusted net income per diluted share between $2.38 and $2.49"
+      ]
+    },
+    "commentary": "Management expresses confidence in delivering strong holiday and Q4 performance, reaffirming full-year top and bottom-line guidance. Third quarter momentum positions company well for year-end targets."
+  },
+  "strategic": {
+    "acquisitions": [
+      {
+        "name": "Helimix branded shaker bottle",
+        "details": "Acquired for $38.0 million in cash to enhance product offerings",
+        "impact": "Expected to expand product portfolio and drive growth"
+      }
+    ],
+    "partnerships": [],
+    "product_launches": [
+      {
+        "product": "New products across 13 platforms",
+        "details": "Includes bags, cookware, and shaker bottles",
+        "impact": "Driving growth across Drinkware and Coolers & Equipment segments"
+      }
+    ],
+    "initiatives": [
+      {
+        "initiative": "Supply chain transformation",
+        "progress": "On track to diversify manufacturing footprint by year-end",
+        "expected_impact": "Enhancing global flexibility and capabilities"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Higher tariff costs",
+        "details": "320 basis point unfavorable impact on gross margin",
+        "mitigation": "Selective price increases and supply chain transformation"
+      }
+    ],
+    "competitive_advantages": [
+      "Strong brand recognition",
+      "Product innovation capabilities",
+      "Direct-to-consumer channel strength",
+      "International expansion momentum"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Revenue growth of 2% to $487.8 million despite challenging environment",
+      "Strong international growth of 14% demonstrating global expansion success",
+      "Coolers & Equipment segment grew 12% driven by soft coolers and bags performance",
+      "Successful Helimix acquisition for $38 million expanding product portfolio",
+      "Strong cash position of $164.5 million with positive free cash flow of $50.1 million",
+      "Increased share repurchase program to $300 million showing capital allocation confidence"
+    ],
+    "key_concerns": [
+      "Net income declined 30% year-over-year to $39.4 million",
+      "US market sales declined 1% showing domestic market pressure",
+      "Drinkware segment decreased 4% due to US region decline",
+      "Tariff costs created 320 basis point headwind on gross margin",
+      "Operating margin compressed to 11.1% from higher levels"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Matt Reintjes, President and CEO",
+        "quote": "Our third quarter results continue to show the strength of YETI and the positive momentum of our long-term growth strategy."
+      }
+    ],
+    "investment_thesis": "YETI demonstrates resilient brand strength with revenue growth and international expansion momentum, though faces margin pressure from tariffs and domestic market headwinds. Strategic acquisitions and product innovation position the company for long-term growth despite near-term profitability challenges."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and operational data available. Missing EBITDA figures and some operational metrics like employee count. Strong strategic and qualitative information provided."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

@@ -1,0 +1,210 @@
+{
+  "id": {
+    "company": "Wayfair Inc.",
+    "ticker": "W",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "ecommerce",
+    "report_date": "2025-10-28"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 3117,
+      "revenue_yoy_pct": 8.1,
+      "revenue_qoq_pct": null,
+      "gross_profit": 934,
+      "gross_margin_pct": 30.0,
+      "operating_income": 38,
+      "operating_margin_pct": 1.2,
+      "net_income": -99,
+      "net_margin_pct": -3.2,
+      "ebitda": null,
+      "adjusted_ebitda": 208
+    },
+    "per_share": {
+      "eps_basic": -0.76,
+      "eps_diluted": -0.76
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": 93,
+      "capex": 45
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 1171,
+      "total_debt": 2748,
+      "net_cash": -1577
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "U.S.",
+        "revenue": 2728,
+        "pct_of_total": 87.5,
+        "yoy_pct": 8.6
+      },
+      {
+        "name": "International",
+        "revenue": 389,
+        "pct_of_total": 12.5,
+        "yoy_pct": 4.6
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 2728,
+        "pct_of_total": 87.5
+      },
+      {
+        "region": "International",
+        "revenue": 389,
+        "pct_of_total": 12.5
+      }
+    ]
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Active customers",
+        "value": "21.2",
+        "unit": "millions",
+        "context": "Total active customer base"
+      },
+      {
+        "name": "LTM net revenue per active customer",
+        "value": "578",
+        "unit": "USD",
+        "context": "Increased by 6.1% year over year"
+      },
+      {
+        "name": "Orders delivered",
+        "value": "9.8",
+        "unit": "millions",
+        "context": "Increased by 5.4% year over year"
+      },
+      {
+        "name": "Repeat customers",
+        "value": "80.1",
+        "unit": "percent",
+        "context": "Of total orders delivered"
+      },
+      {
+        "name": "Average order value",
+        "value": "317",
+        "unit": "USD",
+        "context": "Increased from $310 in Q3 2024"
+      },
+      {
+        "name": "Mobile orders penetration",
+        "value": "63.0",
+        "unit": "percent",
+        "context": "High mobile commerce adoption"
+      }
+    ]
+  },
+  "sector_specific": {
+    "gmv": null,
+    "orders": 9.8,
+    "aov": 317,
+    "prime_members": null,
+    "active_sellers": null,
+    "active_customers": 21.2,
+    "repeat_customer_rate": 80.1,
+    "mobile_orders_pct": 63.0,
+    "ltm_revenue_per_customer": 578,
+    "trading_volume": null,
+    "transaction_revenue": null,
+    "assets_on_platform": null,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": null,
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": null,
+      "other": []
+    },
+    "commentary": "Management highlighted accelerating share gains with revenue growing 9% year-over-year excluding Germany. Orders delivered grew over 5% year-over-year, with new orders showing mid-single digit growth for two consecutive quarters. The company achieved its highest Adjusted EBITDA margin of 6.7% in company history outside the pandemic period."
+  },
+  "strategic": {
+    "acquisitions": [],
+    "partnerships": [],
+    "product_launches": [],
+    "initiatives": [
+      {
+        "initiative": "Exit from the German market",
+        "progress": "Completed",
+        "expected_impact": "Improved profitability and focus on core markets"
+      },
+      {
+        "initiative": "Technology and AI investments",
+        "progress": "Ongoing",
+        "expected_impact": "Enhanced customer experience and operational efficiency"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Macroeconomic conditions",
+        "details": "Adverse macroeconomic conditions, including economic instability, changes in laws and regulations, and other governmental actions or policies",
+        "mitigation": "Monitoring and strategic adjustments"
+      },
+      {
+        "risk": "Interest rates and inflation",
+        "details": "Sustained higher interest rates and inflation could impact consumer spending",
+        "mitigation": "Strategic pricing and cost management"
+      }
+    ],
+    "competitive_advantages": [
+      "Strong brand portfolio",
+      "High mobile order penetration at 63%",
+      "Strong customer loyalty with 80.1% repeat customer rate",
+      "Improving operational efficiency and profitability"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Record Adjusted EBITDA margin of 6.7%, highest in company history outside pandemic period",
+      "Strong revenue growth of 8.1% year-over-year with accelerating share gains",
+      "Orders delivered increased 5.4% year-over-year to 9.8 million",
+      "Average order value improved to $317 from $310 in Q3 2024",
+      "High customer engagement with 80.1% repeat customer rate",
+      "Successful exit from German market improving focus and profitability",
+      "Positive free cash flow of $93 million"
+    ],
+    "key_concerns": [
+      "Net loss of $99 million despite operational improvements",
+      "High debt burden of $2.7 billion against $1.2 billion cash position",
+      "Exposure to macroeconomic headwinds and consumer spending pressures",
+      "International segment growth lagging at 4.6% vs 8.6% for U.S."
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Niraj Shah, CEO",
+        "quote": "Our 6.7% Adjusted EBITDA margin marks the highest level achieved in Wayfair's history outside of the pandemic period."
+      }
+    ],
+    "investment_thesis": "Wayfair demonstrated strong operational execution with record profitability margins and accelerating market share gains, while successfully streamlining operations through the German market exit. The company's focus on mobile commerce, customer retention, and operational efficiency positions it well for sustainable growth, though macroeconomic pressures and debt levels remain key monitoring points."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and operational data available. Strong sector-specific metrics for e-commerce analysis. Some traditional metrics like operating cash flow not disclosed."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

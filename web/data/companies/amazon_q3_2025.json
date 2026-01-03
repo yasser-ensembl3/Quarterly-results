@@ -1,0 +1,246 @@
+{
+  "id": {
+    "company": "Amazon.com, Inc.",
+    "ticker": "AMZN",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "ecommerce",
+    "report_date": "2025-10-31"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 180169,
+      "revenue_yoy_pct": 13.0,
+      "revenue_qoq_pct": null,
+      "gross_profit": null,
+      "gross_margin_pct": null,
+      "operating_income": 17422,
+      "operating_margin_pct": 9.7,
+      "net_income": 21187,
+      "net_margin_pct": 11.8,
+      "ebitda": null,
+      "adjusted_ebitda": null
+    },
+    "per_share": {
+      "eps_basic": null,
+      "eps_diluted": null
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": 14788,
+      "capex": null
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 70464,
+      "total_debt": 50742,
+      "net_cash": 19722
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0,
+        "yoy_pct": 11.0
+      },
+      {
+        "name": "International",
+        "revenue": 40896,
+        "pct_of_total": 23.0,
+        "yoy_pct": 14.0
+      },
+      {
+        "name": "AWS",
+        "revenue": 33006,
+        "pct_of_total": 18.0,
+        "yoy_pct": 20.0
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0
+      },
+      {
+        "region": "International",
+        "revenue": 40896,
+        "pct_of_total": 23.0
+      }
+    ]
+  },
+  "operations": {
+    "employees": 900000,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Worldwide shipping costs",
+        "value": "25384",
+        "unit": "millions_usd",
+        "context": "Increased by 8% YoY"
+      },
+      {
+        "name": "Worldwide paid units growth",
+        "value": "11",
+        "unit": "percent_yoy",
+        "context": "Strong unit growth across all regions"
+      },
+      {
+        "name": "Prime same/next day deliveries",
+        "value": "9000000000",
+        "unit": "items",
+        "context": "More than 9 billion items delivered same or next day to Prime members"
+      }
+    ]
+  },
+  "sector_specific": {
+    "gmv": null,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "active_sellers": null,
+    "aws_revenue": 33006,
+    "aws_growth_pct": 20.0,
+    "online_stores_revenue": 67407,
+    "third_party_seller_revenue": 42486,
+    "advertising_revenue": 17703,
+    "subscription_revenue": 12574,
+    "physical_stores_revenue": 5578,
+    "prime_delivery_performance": "more than 9 billion items delivered same or next day"
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": null,
+      "other": []
+    },
+    "commentary": "AWS is growing at a pace we haven't seen since 2022, re-accelerating to 20.2% YoY. Financial focus is on long-term, sustainable growth in free cash flow."
+  },
+  "strategic": {
+    "acquisitions": [
+      {
+        "name": "Anthropic",
+        "details": "Investments in convertible notes with upward adjustment for observable changes in price",
+        "impact": "Strengthens AI capabilities and partnerships"
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "Multiple enterprise clients",
+        "details": "Signed new AWS agreements with Delta Air Lines, Volkswagen Group, Fox Corporation, ServiceNow, and others",
+        "impact": "Expands enterprise cloud adoption"
+      }
+    ],
+    "product_launches": [
+      {
+        "product": "Project Rainier",
+        "details": "Massive AI compute cluster with nearly 500,000 Trainium2 chips",
+        "impact": "Enables building and deployment of Anthropic's Claude AI models"
+      },
+      {
+        "product": "Amazon EC2 P6e-GB200 UltraServers",
+        "details": "Using NVIDIA Grace Blackwell Superchips",
+        "impact": "Designed for training and deploying the largest AI models"
+      },
+      {
+        "product": "Amazon Nova",
+        "details": "Family of foundation models for AI with lower latency and pricing",
+        "impact": "Enhances Amazon Bedrock AI platform capabilities"
+      },
+      {
+        "product": "Amazon Haul",
+        "details": "New shopping experience in U.S. app with ultra-low prices",
+        "impact": "Expands customer shopping options and market reach"
+      }
+    ],
+    "initiatives": [
+      {
+        "initiative": "The Climate Pledge",
+        "progress": "More than 550 companies joined",
+        "expected_impact": "Reach net-zero carbon emissions by 2040"
+      },
+      {
+        "initiative": "Future Ready 2030",
+        "progress": "$2.5 billion commitment",
+        "expected_impact": "Expand access to education and skills training for at least 50 million people"
+      },
+      {
+        "initiative": "AI Infrastructure Investment",
+        "progress": "Increased spending on AI and cloud infrastructure",
+        "expected_impact": "Support AWS business growth and AI capabilities"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Legal Settlement",
+        "details": "$2.5 billion charge related to FTC settlement",
+        "mitigation": "Not specified"
+      },
+      {
+        "risk": "Severance Costs",
+        "details": "$1.8 billion charge for planned role eliminations",
+        "mitigation": "Not specified"
+      },
+      {
+        "risk": "Foreign Exchange Risk",
+        "details": "Exposure to foreign exchange rate fluctuations",
+        "mitigation": "Hedging strategies and financial management"
+      },
+      {
+        "risk": "Regulatory and Legal Proceedings",
+        "details": "Antitrust allegations and various litigation",
+        "mitigation": "Vigorous defense in legal matters"
+      },
+      {
+        "risk": "Cybersecurity and Data Protection",
+        "details": "Potential for system interruptions and data breaches",
+        "mitigation": "Investment in security measures and redundancy systems"
+      }
+    ],
+    "competitive_advantages": [
+      "Strong focus on customer experience",
+      "Leadership in AI and cloud services",
+      "Extensive logistics and fulfillment network",
+      "Prime membership ecosystem"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Strong 13% revenue growth reaching $180.2 billion",
+      "AWS re-accelerated to 20% growth, fastest pace since 2022",
+      "Net income surged 38% year-over-year to $21.2 billion",
+      "Strong cash generation with $14.8 billion in free cash flow",
+      "International segment showing strong 14% growth",
+      "Heavy investment in AI infrastructure positioning for future growth"
+    ],
+    "key_concerns": [
+      "Significant one-time charges of $4.3 billion from FTC settlement and severance costs",
+      "Ongoing regulatory and legal challenges",
+      "Increased shipping costs up 8% year-over-year"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Andy Jassy, President and CEO",
+        "quote": "AWS is growing at a pace we haven't seen since 2022, re-accelerating to 20.2% YoY."
+      },
+      {
+        "speaker": "Management",
+        "quote": "Our financial focus is on long-term, sustainable growth in free cash flow."
+      }
+    ],
+    "investment_thesis": "Amazon delivered strong Q3 2025 results with accelerating AWS growth and robust cash generation, while making significant AI infrastructure investments. Despite one-time charges, the company demonstrates strong operational momentum across all segments with particular strength in cloud services and international markets."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Comprehensive financial and operational data available. Missing some traditional metrics like gross profit and EPS, but strong coverage of segment performance and strategic initiatives."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

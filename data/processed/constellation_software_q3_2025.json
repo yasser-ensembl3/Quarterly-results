@@ -1,0 +1,223 @@
+{
+  "id": {
+    "company": "Constellation Software Inc.",
+    "ticker": "CSI",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "tech",
+    "report_date": "2025-11-07"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 2948,
+      "revenue_yoy_pct": 16.0,
+      "revenue_qoq_pct": null,
+      "gross_profit": null,
+      "gross_margin_pct": null,
+      "operating_income": null,
+      "operating_margin_pct": null,
+      "net_income": 210,
+      "net_margin_pct": 7.1,
+      "ebitda": null,
+      "adjusted_ebitda": null
+    },
+    "per_share": {
+      "eps_basic": 9.89,
+      "eps_diluted": 9.89
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": 529,
+      "capex": null
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 2770,
+      "total_debt": 5014,
+      "net_cash": -2244
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "Maintenance and Other Recurring",
+        "revenue": 2213,
+        "pct_of_total": 75.1,
+        "yoy_pct": 17.0
+      },
+      {
+        "name": "Professional Services",
+        "revenue": 538,
+        "pct_of_total": 18.3,
+        "yoy_pct": 11.0
+      },
+      {
+        "name": "Licenses",
+        "revenue": 107,
+        "pct_of_total": 3.6,
+        "yoy_pct": 27.0
+      },
+      {
+        "name": "Hardware and Other",
+        "revenue": 89,
+        "pct_of_total": 3.0,
+        "yoy_pct": 15.0
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 1562,
+        "pct_of_total": 53.0
+      },
+      {
+        "region": "EMEA",
+        "revenue": 884,
+        "pct_of_total": 30.0
+      },
+      {
+        "region": "APAC",
+        "revenue": 147,
+        "pct_of_total": 5.0
+      },
+      {
+        "region": "LATAM",
+        "revenue": 88,
+        "pct_of_total": 3.0
+      },
+      {
+        "region": "International",
+        "revenue": 267,
+        "pct_of_total": 9.0
+      }
+    ]
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": null,
+    "key_metrics": [
+      {
+        "name": "Free Cash Flow Conversion",
+        "value": "25.2",
+        "unit": "percent",
+        "context": "FCF as percentage of revenue"
+      },
+      {
+        "name": "Recurring Revenue Ratio",
+        "value": "75.1",
+        "unit": "percent",
+        "context": "Maintenance and recurring revenue as percentage of total"
+      },
+      {
+        "name": "Acquisition Pipeline",
+        "value": "454",
+        "unit": "millions_usd",
+        "context": "Committed acquisitions"
+      }
+    ]
+  },
+  "sector_specific": {
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null,
+    "acquisition_pipeline": 454,
+    "equity_stakes": "61.40% in Lumine Group, 14.84% in Asseco Poland"
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": null,
+      "other": []
+    },
+    "commentary": "Management focuses on acquiring businesses with growth potential, managing them well, and building them to generate significant cash flows and revenue growth. Objective is to invest all free cash flow available to shareholders in acquisitions which meet their hurdle rate."
+  },
+  "strategic": {
+    "acquisitions": [
+      {
+        "name": "WideOrbit Inc.",
+        "details": "Acquisition completed through Lumine Group Inc.",
+        "impact": "Increased equity interest in Lumine to 61.40%"
+      },
+      {
+        "name": "Asseco Poland S.A.",
+        "details": "Acquired 14.84% of shares for $289 million at PLN 85 per share",
+        "impact": "Strategic investment for long-term holding and enhanced market presence in Poland"
+      },
+      {
+        "name": "Cipal Schaubroeck NV",
+        "details": "Acquired for $258 million, contributing $39 million in revenue",
+        "impact": "Strengthens position in the local government vertical"
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "Adam Góral Family Foundation",
+        "details": "Shareholders' agreement governing cooperation as shareholders in Asseco"
+      }
+    ],
+    "product_launches": [],
+    "initiatives": [
+      "Focus on mission-critical vertical market software",
+      "Active acquisition strategy with $454 million in committed deals"
+    ],
+    "risks": [
+      {
+        "risk": "Foreign exchange fluctuations",
+        "details": "Significant foreign exchange losses could have material adverse effects",
+        "mitigation": "Geographical organization to match revenue and expenses in same currency"
+      },
+      {
+        "risk": "Artificial Intelligence disruption",
+        "details": "Challenges with AI incorporation may result in competitive harm",
+        "mitigation": "Develop and use AI responsibly, identify and mitigate ethical and legal issues"
+      },
+      {
+        "risk": "Tax audits",
+        "details": "Potential additional tax expense due to audits in various jurisdictions",
+        "mitigation": "Focus on compliance and accurate reporting"
+      }
+    ],
+    "competitive_advantages": [
+      "Focus on mission-critical software solutions",
+      "Strong acquisition strategy and execution",
+      "Diversified geographic presence",
+      "High recurring revenue base providing stability"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Strong 16% revenue growth driven by strategic acquisitions",
+      "Net income surged 28% year-over-year to $210 million",
+      "Robust free cash flow of $529 million supports acquisition strategy",
+      "Maintenance and recurring revenue represents 75% of total revenue providing stability",
+      "Active acquisition pipeline with $454 million in committed deals",
+      "Geographic diversification with strong presence across multiple regions"
+    ],
+    "key_concerns": [
+      "Foreign exchange exposure across multiple currencies",
+      "Potential AI disruption to existing software solutions",
+      "High debt levels at $5.0 billion vs $2.8 billion cash",
+      "Dependence on acquisition strategy for growth"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Management",
+        "quote": "Our objective is to invest all of our free cash flow available to shareholders in acquisitions which meet our hurdle rate."
+      }
+    ],
+    "investment_thesis": "Constellation Software demonstrates strong execution of its acquisition-focused strategy with 16% revenue growth and 28% net income growth, supported by a stable recurring revenue base of 75%. The company's robust free cash flow generation of $529 million and committed acquisition pipeline of $454 million position it well for continued growth, though investors should monitor foreign exchange risks and the company's ability to integrate acquisitions effectively."
+  },
+  "metadata": {
+    "data_quality_score": 0.8,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Strong financial data with comprehensive strategic information. Missing some operational metrics like employee count and detailed margin breakdowns, but acquisition and strategic data is very complete."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}

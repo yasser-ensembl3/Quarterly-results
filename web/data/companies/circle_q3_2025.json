@@ -1,0 +1,197 @@
+{
+  "id": {
+    "company": "Circle Internet Group, Inc.",
+    "ticker": "CRCL",
+    "quarter": "Q3",
+    "year": 2025,
+    "company_type": "fintech",
+    "report_date": "2025-11-12"
+  },
+  "financials": {
+    "income_statement": {
+      "revenue": 740.0,
+      "revenue_yoy_pct": 66.0,
+      "revenue_qoq_pct": null,
+      "gross_profit": null,
+      "gross_margin_pct": null,
+      "operating_income": 81.02,
+      "operating_margin_pct": 10.9,
+      "net_income": 214.0,
+      "net_margin_pct": 28.9,
+      "ebitda": null,
+      "adjusted_ebitda": 166.0
+    },
+    "per_share": {
+      "eps_basic": 0.93,
+      "eps_diluted": 0.64
+    },
+    "cash_flow": {
+      "operating_cash_flow": null,
+      "free_cash_flow": null,
+      "capex": null
+    },
+    "balance_sheet": {
+      "cash_and_equivalents": 1348.9,
+      "total_debt": 149.1,
+      "net_cash": 1199.8
+    }
+  },
+  "segments": {
+    "by_business": [
+      {
+        "name": "Reserve Income",
+        "revenue": 711.0,
+        "pct_of_total": 96.1,
+        "yoy_pct": 60.0
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 29.0,
+        "pct_of_total": 3.9,
+        "yoy_pct": null
+      }
+    ],
+    "by_geography": []
+  },
+  "operations": {
+    "employees": null,
+    "employee_change_qoq": 14.0,
+    "key_metrics": [
+      {
+        "name": "USDC in Circulation",
+        "value": "73.7",
+        "unit": "billions_usd",
+        "context": "108% YoY increase"
+      },
+      {
+        "name": "Average USDC in Circulation",
+        "value": "67.8",
+        "unit": "billions_usd",
+        "context": "97% YoY increase"
+      },
+      {
+        "name": "Stablecoin Market Share",
+        "value": "29",
+        "unit": "percent",
+        "context": "643bps increase"
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": 9600000.0,
+    "transaction_revenue": 29.0,
+    "assets_on_platform": 10200.0,
+    "monthly_transacting_users": null,
+    "verified_users": null,
+    "stablecoin_market_cap": 73700.0,
+    "usdc_minted": 79700.0,
+    "usdc_redeemed": 67300.0,
+    "net_issuance": 12400.0,
+    "stablecoin_market_share_pct": 29.0,
+    "arr": null,
+    "mrr": null,
+    "net_revenue_retention": null,
+    "churn_rate": null,
+    "dau_mau": null,
+    "deposits_from_stablecoin_holders": 73267.103,
+    "cash_segregated_for_stablecoin_holders": 73372.843,
+    "reserve_income": 711.241,
+    "usdc_circulation": 73749.0,
+    "eurc_circulation": null,
+    "usdc_market_share_pct": 29.0,
+    "usdc_transaction_volume": 9600000.0,
+    "cctp_volume": 31300.0,
+    "visa_stablecoin_usdc_share_pct": 40.0,
+    "gmv": null,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "active_sellers": null
+  },
+  "guidance": {
+    "q_plus_1": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_guidance": "Other Revenue: $90-$100M",
+      "other": [
+        "RLDC Margin: ~38%",
+        "Adjusted Operating Expenses: $495-$510M"
+      ]
+    },
+    "commentary": "Circle continued to see accelerating adoption of USDC and our platform in the third quarter as we build the new Economic OS for the internet."
+  },
+  "strategic": {
+    "acquisitions": [],
+    "partnerships": [
+      {
+        "partner": "Brex, Deutsche Börse Group, Finastra, Fireblocks, Hyperliquid, Kraken, Unibanco Itaú, Visa",
+        "details": "New partnerships and expanded collaborations across digital assets, banking infrastructure, payments, international dollar access and capital markets.",
+        "impact": "Expanding ecosystem and market reach"
+      }
+    ],
+    "product_launches": [
+      {
+        "product": "Arc Public Testnet",
+        "details": "Launch with more than 100 participating companies.",
+        "impact": "Evidence of the deep and diverse ecosystem forming around open, programmable money."
+      }
+    ],
+    "initiatives": [
+      {
+        "initiative": "Arc Token",
+        "progress": "Exploring the possibility of launching a native token on the Arc Network.",
+        "expected_impact": "Could foster network participation to drive adoption."
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Market demand and circulation of Circle stablecoins",
+        "details": "Intense and increasing competition from new and existing issuers offering competing products.",
+        "mitigation": "Focus on expanding partnerships and collaborations."
+      },
+      {
+        "risk": "Regulatory environment",
+        "details": "Subject to an extensive and highly evolving regulatory landscape.",
+        "mitigation": "Compliance with U.S. regulatory requirements and monitoring of regulatory changes."
+      }
+    ],
+    "competitive_advantages": [
+      "Growing circulation of USDC",
+      "Expanding commercial partnerships",
+      "Strong regulatory compliance position",
+      "29% stablecoin market share with 643bps increase"
+    ]
+  },
+  "highlights": {
+    "key_positives": [
+      "Exceptional financial performance with 66% YoY revenue growth to $740M",
+      "Net income surged 202% YoY to $214M with strong 28.9% net margin",
+      "USDC circulation reached $73.7B with 108% YoY growth, driving market share to 29%",
+      "Strong balance sheet with $1.35B cash position and low debt provides financial flexibility",
+      "Arc public testnet launch with 100+ companies demonstrates ecosystem expansion"
+    ],
+    "key_concerns": [
+      "Intense competition in stablecoin market from new and existing issuers",
+      "Regulatory uncertainty in evolving digital asset landscape",
+      "Heavy dependence on Reserve Income (96.1% of total revenue)"
+    ],
+    "notable_quotes": [
+      {
+        "speaker": "Jeremy Allaire, CEO",
+        "quote": "Circle's infrastructure is helping global finance move with greater trust, transparency and velocity."
+      }
+    ],
+    "investment_thesis": "Circle demonstrates exceptional growth in the stablecoin market with USDC reaching 29% market share and strong financial performance driven by reserve income. The company is well-positioned to benefit from digital dollar adoption with a strong balance sheet, expanding partnerships, and innovative Arc Network development."
+  },
+  "metadata": {
+    "data_quality_score": 0.85,
+    "completeness": "high",
+    "normalized_at": "2024-12-19T10:30:00Z",
+    "notes": "Strong financial data with comprehensive strategic information. Missing some traditional metrics like gross profit and cash flow details, but sector-specific stablecoin metrics are well-represented. All monetary values standardized to millions USD, percentages as decimal numbers."
+  },
+  "_normalize_model": "claude-sonnet-4-20250514"
+}
