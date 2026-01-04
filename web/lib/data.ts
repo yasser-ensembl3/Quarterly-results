@@ -126,6 +126,7 @@ const allCompanies: CompanyData[] = [
   yetiData as unknown as CompanyData,
 ]
 
+// Synchronous functions (for fallback and client-side use)
 export function getAllCompanies(): CompanyData[] {
   return allCompanies.sort((a, b) =>
     (b.financials.income_statement.revenue || 0) - (a.financials.income_statement.revenue || 0)
@@ -137,6 +138,57 @@ export function getCompanyBySlug(slug: string): CompanyData | undefined {
     c.id.ticker.toLowerCase() === slug.toLowerCase() ||
     c.id.company.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === slug.toLowerCase()
   )
+}
+
+// Async functions (fetch from API / Google Drive)
+export async function fetchAllCompanies(): Promise<CompanyData[]> {
+  try {
+    const baseUrl = typeof window === 'undefined'
+      ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+      : '';
+
+    const response = await fetch(`${baseUrl}/api/companies`, {
+      next: { revalidate: 300 },
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const result = await response.json();
+    return result.data as CompanyData[];
+  } catch (error) {
+    console.error('[data] Failed to fetch companies, using fallback:', error);
+    return getAllCompanies();
+  }
+}
+
+export async function fetchCompanyBySlug(slug: string): Promise<CompanyData | undefined> {
+  const ticker = slug.toUpperCase();
+
+  try {
+    const baseUrl = typeof window === 'undefined'
+      ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+      : '';
+
+    const response = await fetch(`${baseUrl}/api/companies/${ticker}`, {
+      next: { revalidate: 300 },
+    });
+
+    if (response.status === 404) {
+      return undefined;
+    }
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const result = await response.json();
+    return result.data as CompanyData;
+  } catch (error) {
+    console.error(`[data] Failed to fetch company ${slug}, using fallback:`, error);
+    return getCompanyBySlug(slug);
+  }
 }
 
 export function getCompanyTypes(): string[] {
