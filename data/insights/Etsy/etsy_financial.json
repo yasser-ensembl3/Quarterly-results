@@ -1,0 +1,394 @@
+{
+  "company_info": {
+    "name": "Etsy, Inc.",
+    "ticker": "ETSY",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-29",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 678.026,
+      "unit": "millions",
+      "yoy_pct": 2.4,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": 194.645,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 483.381,
+      "margin_pct": 71.3
+    },
+    "operating_expenses": {
+      "value": 400.67,
+      "breakdown": {
+        "marketing": 207.841,
+        "product_development": 113.379,
+        "general_and_administrative": 79.45
+      }
+    },
+    "operating_income": {
+      "value": 82.711,
+      "margin_pct": 12.2
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": 171.928
+    },
+    "net_income": {
+      "value": 75.503,
+      "margin_pct": 11.1,
+      "yoy_pct": 31.6
+    },
+    "eps": {
+      "basic": 0.76,
+      "diluted": 0.63,
+      "yoy_pct": null
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 1248.94,
+    "short_term_investments": 259.211,
+    "total_cash": 1508.151,
+    "accounts_receivable": 7.412,
+    "inventory": null,
+    "total_assets": 2652.811,
+    "accounts_payable": 9.215,
+    "short_term_debt": null,
+    "long_term_debt": 2980.605,
+    "total_debt": 2980.605,
+    "total_liabilities": 3765.395,
+    "shareholders_equity": -1112.584,
+    "net_cash_position": -1472.454
+  },
+  "cash_flow": {
+    "operating_cash_flow": 376.29,
+    "investing_cash_flow": 31.529,
+    "financing_cash_flow": -4.582,
+    "capex": 45.428,
+    "free_cash_flow": 330.862,
+    "dividends_paid": 0,
+    "share_repurchases": 643.67
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Marketplace revenue",
+        "revenue": 468.058,
+        "pct_of_total": 69.0,
+        "yoy_pct": -1.7
+      },
+      {
+        "name": "Services revenue",
+        "revenue": 209.968,
+        "pct_of_total": 31.0,
+        "yoy_pct": 12.7
+      },
+      {
+        "name": "Marketplace",
+        "revenue": 468.058,
+        "pct_of_total": 69.0,
+        "yoy_pct": -1.7
+      },
+      {
+        "name": "Services",
+        "revenue": 209.968,
+        "pct_of_total": 31.0,
+        "yoy_pct": 12.7
+      },
+      {
+        "name": "Etsy Marketplace",
+        "revenue": 468.1,
+        "pct_of_total": 69.0,
+        "yoy_pct": -1.7
+      },
+      {
+        "name": "Seller Services",
+        "revenue": 210.0,
+        "pct_of_total": 31.0,
+        "yoy_pct": 12.7
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "United States",
+        "revenue": 343.542,
+        "pct_of_total": 50.7,
+        "yoy_pct": -0.8
+      },
+      {
+        "region": "United Kingdom",
+        "revenue": 67.662,
+        "pct_of_total": 10.0,
+        "yoy_pct": -7.6
+      },
+      {
+        "region": "All Other",
+        "revenue": 266.822,
+        "pct_of_total": 39.3,
+        "yoy_pct": 9.8
+      },
+      {
+        "region": "U.S. Buyer GMS",
+        "revenue": null,
+        "pct_of_total": 74.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "Non-U.S. Buyer GMS",
+        "revenue": null,
+        "pct_of_total": 26.0,
+        "yoy_pct": null
+      }
+    ],
+    "by_product": []
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Active sellers",
+        "value": 8.501,
+        "unit": "millions",
+        "yoy_pct": -0.2
+      },
+      {
+        "name": "Active buyers",
+        "value": 93.161,
+        "unit": "millions",
+        "yoy_pct": -3.7
+      },
+      {
+        "name": "Etsy marketplace active sellers",
+        "value": 5.5,
+        "unit": "millions",
+        "yoy_pct": -10.9
+      },
+      {
+        "name": "Etsy marketplace active buyers",
+        "value": 86.6,
+        "unit": "millions",
+        "yoy_pct": -5.0
+      },
+      {
+        "name": "Etsy habitual buyers",
+        "value": 6.0,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Depop active sellers",
+        "value": 3.0,
+        "unit": "millions",
+        "yoy_pct": 40.8
+      },
+      {
+        "name": "Depop active buyers",
+        "value": 6.6,
+        "unit": "millions",
+        "yoy_pct": 38.8
+      },
+      {
+        "name": "Active sellers",
+        "value": 8500000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Active buyers",
+        "value": 93200000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Unrecognized tax benefits",
+        "value": 59.4,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock-based compensation expense",
+        "value": 60.772,
+        "unit": "millions",
+        "yoy_pct": -12.3
+      },
+      {
+        "name": "Interest expense",
+        "value": 4.4,
+        "unit": "millions",
+        "yoy_pct": 109.5
+      },
+      {
+        "name": "Active Sellers",
+        "value": 8.501,
+        "unit": "millions",
+        "yoy_pct": -0.2
+      },
+      {
+        "name": "Active Buyers",
+        "value": 93.161,
+        "unit": "millions",
+        "yoy_pct": -3.7
+      },
+      {
+        "name": "Etsy Marketplace Active Sellers",
+        "value": 5.5,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Etsy Marketplace Active Buyers",
+        "value": 86.6,
+        "unit": "millions",
+        "yoy_pct": -5.0
+      },
+      {
+        "name": "GMS per Active Buyer TTM",
+        "value": 121,
+        "unit": "dollars",
+        "yoy_pct": -1.6
+      },
+      {
+        "name": "Revenue Take Rate",
+        "value": 24.9,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Adjusted EBITDA Margin",
+        "value": 25.4,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Active Sellers",
+        "value": 5500000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "GMS per Active Buyer",
+        "value": 121,
+        "unit": "dollars",
+        "yoy_pct": -1.6
+      },
+      {
+        "name": "Take Rate",
+        "value": 24.9,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "App Downloads",
+        "value": null,
+        "unit": "percent_change",
+        "yoy_pct": 9.0
+      }
+    ]
+  },
+  "sector_specific": {
+    "gms": 2724.665,
+    "gms_yoy_pct": -6.5,
+    "etsy_marketplace_gms": 2432.6,
+    "etsy_marketplace_gms_yoy_pct": -2.4,
+    "depop_gms": 292.1,
+    "depop_gms_yoy_pct": 39.4,
+    "take_rate": 24.9,
+    "etsy_gms_per_active_buyer": 121,
+    "etsy_app_gms_pct": 46,
+    "buyers_reactivated": 6.6,
+    "new_buyers_acquired": 4.8,
+    "gmv": 2700,
+    "goodwill_impairment": 101.7,
+    "reverb_sale_proceeds": 108.2,
+    "reverb_loss_on_sale": 5.1,
+    "effective_tax_rate": 52.5,
+    "deferred_revenue_recognized": 18.3,
+    "gmv_yoy_pct": -6.5,
+    "depop_marketplace_gms": 292.1,
+    "revenue_take_rate": 24.9,
+    "paid_gms_pct": 23.0,
+    "currency_neutral_gms_decline": -7.2,
+    "etsy_marketplace_gmv": 2400.0,
+    "etsy_marketplace_gmv_yoy_pct": -2.4,
+    "depop_marketplace_gmv": 292.0,
+    "depop_marketplace_gmv_yoy_pct": 39.4,
+    "active_buyers": 86600000,
+    "active_buyers_yoy_pct": -5.0,
+    "new_buyers": 4800000,
+    "new_buyers_yoy_pct": -10.2,
+    "repeat_buyers": 34900000,
+    "repeat_buyers_yoy_pct": -5.5,
+    "habitual_buyers": 6000000,
+    "habitual_buyers_yoy_pct": -11.8,
+    "active_sellers": 5500000,
+    "mobile_app_gms_share_pct": 46.0,
+    "app_gms_yoy_pct": 5.0
+  },
+  "guidance": {
+    "next_quarter": {
+      "gms_low": 3500.0,
+      "gms_high": 3650.0,
+      "gms_midpoint": 3575.0,
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Take Rate",
+          "low": 24.5,
+          "high": 24.5
+        },
+        {
+          "metric": "Adjusted EBITDA Margin",
+          "low": 24.0,
+          "high": 24.0
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 45.428,
+    "capex_guidance": null,
+    "dividends_per_share": 0,
+    "buyback_authorization": 1000,
+    "buyback_remaining": 356.5,
+    "shares_repurchased": 12.132
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Complete Q3 2025 earnings data extracted. Company has stockholders' deficit due to convertible debt and share repurchases. GMS metrics are key for this ecommerce marketplace business. Reverb was sold in June 2025."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Etsy"
+}

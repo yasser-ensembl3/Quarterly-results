@@ -1,0 +1,565 @@
+{
+  "company_info": {
+    "name": "YETI Holdings, Inc.",
+    "ticker": "YETI",
+    "quarter": "Q3",
+    "year": 2025
+  },
+  "executive_summary": {
+    "one_liner": "YETI delivered strong international and Coolers & Equipment growth while managing through Drinkware headwinds in the US, with management expressing confidence in long-term high single to low double-digit growth potential.",
+    "management_tone": "optimistic",
+    "key_narrative": "Management emphasized YETI's diversified strategy is working with robust international expansion, strong product innovation pipeline, and effective omni-channel approach. Despite promotional pressures in US Drinkware, the company sees momentum building across strategic growth pillars with significant global opportunity ahead."
+  },
+  "strategic_initiatives": [
+    {
+      "initiative": "Supply Chain Diversification",
+      "status": "completed",
+      "progress": "Successfully transitioned to less than 5% of total COGS exposed to US tariffs on China-sourced goods by year-end",
+      "expected_impact": "Enhanced operational resilience, global flexibility, and reduced geopolitical risk",
+      "timeline": "Completed by 2025 year-end"
+    },
+    {
+      "initiative": "Global Innovation Centers Expansion",
+      "status": "in_progress",
+      "progress": "Thailand Innovation Center fully operational, Vietnam development office opening early 2026",
+      "expected_impact": "24/7 global product development cycle, increased speed and capacity for innovation",
+      "timeline": "Vietnam office opens early 2026"
+    },
+    {
+      "initiative": "International Market Expansion",
+      "status": "in_progress",
+      "progress": "Strong momentum in Europe/UK, Japan scaling with 270+ doors, planning launches in Malaysia, Singapore, Philippines",
+      "expected_impact": "Major long-term growth driver with 'front of the wave' opportunity",
+      "timeline": "Three Asian market launches planned for next year"
+    },
+    {
+      "initiative": "Sports Market Expansion Strategy",
+      "status": "in_progress",
+      "progress": "Licensed with NBA, NFL, NHL, MLS, MLB; partnership with Fanatics showing exceptional early results",
+      "expected_impact": "Significant audience expansion and new revenue streams through sports licensing",
+      "timeline": "Ongoing expansion"
+    },
+    {
+      "initiative": "Supply chain and manufacturing diversification",
+      "status": "in_progress",
+      "progress": "Ongoing efforts mentioned as part of tariff mitigation strategies",
+      "expected_impact": "Reduce supply chain risk and mitigate tariff impacts",
+      "timeline": "Not specified"
+    },
+    {
+      "initiative": "International expansion",
+      "status": "in_progress",
+      "progress": "Operating in U.S., Canada, Australia, New Zealand, Europe, and Asia",
+      "expected_impact": "Geographic diversification and growth",
+      "timeline": "Ongoing"
+    },
+    {
+      "initiative": "Share repurchase program expansion",
+      "status": "completed",
+      "progress": "Board approved $350M increase to authorization, bringing total to $450M",
+      "expected_impact": "Return capital to shareholders and reduce share count",
+      "timeline": "Q1 2025 authorization increase"
+    },
+    {
+      "initiative": "Drinkware manufacturing diversification beyond China",
+      "status": "in_progress",
+      "progress": "Large percentage of Drinkware manufacturing capacity expected to be outside of China by end of 2025",
+      "expected_impact": "Reduce tariff exposure and improve supply chain resilience",
+      "timeline": "Completion expected by end of 2025"
+    },
+    {
+      "initiative": "Omni-channel distribution expansion",
+      "status": "ongoing",
+      "progress": "Balanced platform with wholesale and DTC channels, including Amazon Marketplace and retail stores",
+      "expected_impact": "Diversified revenue streams and improved market reach",
+      "timeline": "Ongoing"
+    },
+    {
+      "initiative": "International expansion",
+      "status": "in_progress",
+      "progress": "Growth across all international regions, including Japan launch in Q2 2025",
+      "expected_impact": "Reduced dependence on U.S. market",
+      "timeline": "Ongoing expansion"
+    }
+  ],
+  "product_and_innovation": {
+    "new_launches": [
+      {
+        "product": "Silo Jug",
+        "description": "Large capacity hydration product for sports, job sites, outdoor adventures",
+        "target_market": "Athletes and anyone needing large capacity, easy-access hydration",
+        "competitive_advantage": "YETI cold-holding power in versatile large format",
+        "reception": "Recently launched with positive feedback"
+      },
+      {
+        "product": "YETI Shaker Bottle",
+        "description": "Patented design shaker bottle without traditional wire ball",
+        "target_market": "$2.5 billion market for hydration powders, protein supplements, wellness products",
+        "competitive_advantage": "Improved mix experience, manufactured in US, margin-accretive",
+        "reception": "Very positive early feedback from wholesale sports and health partners"
+      },
+      {
+        "product": "GoBox 1",
+        "description": "Storage and protective case at giftable price point",
+        "target_market": "Holiday shoppers",
+        "competitive_advantage": "Expands storage platform at accessible price",
+        "reception": "Just launched for holiday season"
+      },
+      {
+        "product": "Daytrip Soft Coolers",
+        "description": "Soft cooler line with planned expansions",
+        "target_market": "Broader market opportunity in soft coolers",
+        "competitive_advantage": "Strong demand driving line extensions",
+        "reception": "Significant demand noted"
+      },
+      {
+        "product": "YETI Cast Iron Skillet",
+        "description": "Cast iron cookware leveraging Butter Pat acquisition",
+        "target_market": "Outdoor cooking enthusiasts",
+        "competitive_advantage": "Expansion into cookware category through strategic acquisition",
+        "reception": "Launched in Q3 2024"
+      },
+      {
+        "product": "Ranchero backpack",
+        "description": "New bag offering in two sizes",
+        "target_market": "Outdoor enthusiasts",
+        "competitive_advantage": "Part of expanding bag portfolio",
+        "reception": "Not specified"
+      },
+      {
+        "product": "Rambler Travel Bottle",
+        "description": "Drinkware expansion in two sizes, later expanded with new size in Q3",
+        "target_market": "Mobile consumers",
+        "competitive_advantage": "Insulated travel solution",
+        "reception": "Not specified"
+      },
+      {
+        "product": "Rambler Insulated Bowls",
+        "description": "Six sizes for outdoor kitchen expansion",
+        "target_market": "Outdoor cooking enthusiasts",
+        "competitive_advantage": "Part of outdoor kitchen category expansion",
+        "reception": "Not specified"
+      },
+      {
+        "product": "14-inch Cast Iron Skillet",
+        "description": "Outdoor kitchen cooking equipment",
+        "target_market": "Outdoor cooking enthusiasts",
+        "competitive_advantage": "Expansion into cooking equipment",
+        "reception": "Not specified"
+      },
+      {
+        "product": "Rambler Ceramic Mug Collection",
+        "description": "Two sizes launched in Q3 2025",
+        "target_market": "Premium drinkware consumers",
+        "competitive_advantage": "Ceramic material expansion",
+        "reception": "Not specified"
+      },
+      {
+        "product": "Daytrip collection",
+        "description": "Includes Daytrip Lunchboxes, Lunch Bag, and Tote Bag",
+        "target_market": "Daily use consumers",
+        "competitive_advantage": "Everyday use positioning",
+        "reception": "Not specified"
+      }
+    ],
+    "pipeline": [
+      {
+        "product": "Expanded Daytrip Line",
+        "expected_launch": "Coming months",
+        "details": "Line expansions planned to address wider market opportunity"
+      },
+      {
+        "product": "Storage and Protective Case Platform Expansion",
+        "expected_launch": "2026",
+        "details": "Much broader expansion planned following GoBox 1 launch"
+      },
+      {
+        "product": "Powered cooler platform",
+        "expected_launch": "Not specified",
+        "details": "Unique powered cooler platform using acquired cooling technology patents"
+      },
+      {
+        "product": "Helimix-based shaker bottle products",
+        "expected_launch": "Not specified",
+        "details": "Products based on acquired Helimix shaker bottle designs and intellectual property"
+      }
+    ],
+    "r_and_d_focus": "Building global innovation capabilities with centers in Austin, Denver, Bozeman, Thailand, and Vietnam (opening 2026) to enable 24/7 product development cycle across hard goods, bags, and soft coolers"
+  },
+  "competitive_landscape": {
+    "market_position": "Premium brand leader setting standards for durability, design, and performance with 13 scalable product platforms",
+    "competitive_advantages": [
+      "Diversified omni-channel strategy enabling presence where consumers shop",
+      "Strong brand connection and community engagement",
+      "Global innovation capabilities with multiple development centers",
+      "Premium positioning with quality-focused customer base",
+      "Robust product portfolio spanning core categories",
+      "Strong brand recognition in outdoor and recreation market",
+      "Diversified distribution through wholesale and direct-to-consumer channels",
+      "Product innovation through strategic acquisitions",
+      "Omnichannel presence including retail stores, websites, and Amazon marketplace",
+      "Strong brand loyalty and premium positioning",
+      "High-performing, exceptional products built for diverse outdoor pursuits",
+      "Balanced omni-channel distribution platform",
+      "Careful retail partner selection consistent with premium brand"
+    ],
+    "competitive_threats": [
+      "Promotional intensity in US Drinkware market",
+      "Cautious retail environment in US wholesale channel",
+      "General economic conditions affecting consumer spending",
+      "Competitive pressures in outdoor and recreation market",
+      "Promotional market environment affecting Drinkware sales"
+    ],
+    "market_share_commentary": "Strong sell-through performance indicates underlying brand strength despite promotional market environment",
+    "industry_trends": [
+      {
+        "trend": "Promotional market environment in US Drinkware",
+        "company_positioning": "Focusing on innovation, brand relevance, and premium positioning rather than competing on price"
+      },
+      {
+        "trend": "Growing demand for hydration powders and wellness products",
+        "company_positioning": "Entering with shaker bottle targeting $2.5 billion market opportunity"
+      },
+      {
+        "trend": "Sports and wellness market expansion",
+        "company_positioning": "Strategic partnerships with major sports leagues and expanding into sports licensing"
+      },
+      {
+        "trend": "Consumer sensitivity to economic conditions",
+        "company_positioning": "Managing through challenging consumer environment with strategic focus on brand strength"
+      },
+      {
+        "trend": "Challenging macroeconomic and consumer spending environment",
+        "company_positioning": "Managing expenses and pursuing strategic mitigation options"
+      },
+      {
+        "trend": "Promotional market environment in Drinkware",
+        "company_positioning": "Implementing selective price increases on certain drinkware products"
+      }
+    ]
+  },
+  "partnerships_and_ma": {
+    "acquisitions": [
+      {
+        "target": "Helimix shaker bottle assets",
+        "rationale": "Acquire patented design, tooling, and IP to enter $2.5 billion shaker bottle market quickly",
+        "status": "completed",
+        "expected_synergies": "Leverage 39,000+ 4.5-star Amazon reviews, enable quick market entry with margin-accretive product"
+      },
+      {
+        "target": "Mystery Ranch, LLC",
+        "rationale": "Expand capabilities in bags category with durable load-bearing backpacks and accessories",
+        "status": "completed",
+        "expected_synergies": "Integration into existing product portfolio and expansion of backpack offerings"
+      },
+      {
+        "target": "Butter Pat Industries, LLC",
+        "rationale": "Expand capabilities in cookware category",
+        "status": "completed",
+        "expected_synergies": "Enabled launch of YETI-branded Cast Iron Skillet"
+      },
+      {
+        "target": "Powered cooling technology patents",
+        "rationale": "Develop unique powered cooler platform",
+        "status": "completed",
+        "expected_synergies": "New product category development"
+      },
+      {
+        "target": "Helimix branded shaker bottle assets",
+        "rationale": "Acquire designs, tooling, and intellectual property for shaker bottle products",
+        "status": "completed",
+        "expected_synergies": "Product line expansion in drinkware category"
+      },
+      {
+        "target": "Helimix branded shaker bottle assets",
+        "rationale": "Acquired designs, tooling, and intellectual property to expand product portfolio",
+        "status": "completed",
+        "expected_synergies": "Expansion of drinkware offerings"
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "Fanatics",
+        "nature": "Strategic partnership for sports licensing and distribution",
+        "significance": "Exceptional early results, significantly expands YETI's presence in sports licensing market"
+      },
+      {
+        "partner": "Nordstrom",
+        "nature": "New wholesale partnership",
+        "significance": "Featured in 91 doors for holiday, permanent placement in 70 home doors, adds complementary distribution"
+      },
+      {
+        "partner": "Wieden+Kennedy",
+        "nature": "Brand campaign partnership",
+        "significance": "Partnering on largest-ever US brand campaign approaching YETI's 20th anniversary"
+      },
+      {
+        "partner": "League One Volleyball",
+        "nature": "Exclusive partnership including courtside presence",
+        "significance": "Access to fast-growing women's professional volleyball league with 24,000 players"
+      },
+      {
+        "partner": "Amazon Marketplace",
+        "nature": "YETI Authorized presence on Amazon",
+        "significance": "Key component of direct-to-consumer strategy"
+      },
+      {
+        "partner": "Amazon Marketplace",
+        "nature": "YETI Authorized sales channel",
+        "significance": "Key DTC growth driver"
+      }
+    ],
+    "divestitures": []
+  },
+  "risks_and_challenges": [
+    {
+      "risk": "Tariff exposure and trade policy uncertainty",
+      "category": "regulatory",
+      "severity": "medium",
+      "management_response": "Diversified supply chain to reduce China exposure to less than 5% by year-end",
+      "mitigation": "Multi-country sourcing strategy, ability to optimize sourcing based on tariff rates"
+    },
+    {
+      "risk": "Promotional pressure in US Drinkware market",
+      "category": "competitive",
+      "severity": "medium",
+      "management_response": "Focus on innovation, brand relevance, and premium positioning rather than price competition",
+      "mitigation": "Diversified product portfolio, international growth, innovation pipeline"
+    },
+    {
+      "risk": "Cautious retail environment and conservative wholesale ordering",
+      "category": "macro",
+      "severity": "medium",
+      "management_response": "Focus on sell-through performance and consumer demand strength",
+      "mitigation": "Diversified channel strategy, strong direct-to-consumer presence"
+    },
+    {
+      "risk": "Conversion rate challenges on YETI.com",
+      "category": "operational",
+      "severity": "low",
+      "management_response": "Implementing AI initiatives and targeted programs to improve conversion efficiency",
+      "mitigation": "Performance marketing optimization, AI-powered tools, omni-channel strategy"
+    },
+    {
+      "risk": "Tariff impacts and international trade policy changes",
+      "category": "regulatory",
+      "severity": "medium",
+      "management_response": "Supply chain and manufacturing diversification efforts",
+      "mitigation": "Implementing tariff mitigation strategies"
+    },
+    {
+      "risk": "Consumer spending sensitivity to economic conditions",
+      "category": "macro",
+      "severity": "high",
+      "management_response": "Focus on brand strength and product innovation",
+      "mitigation": "Maintaining strong brand positioning and diversifying product offerings"
+    },
+    {
+      "risk": "Supply chain disruption and manufacturer concentration",
+      "category": "operational",
+      "severity": "medium",
+      "management_response": "Diversification efforts and supplier finance programs",
+      "mitigation": "Working on supply chain diversification"
+    },
+    {
+      "risk": "Currency exchange rate fluctuations",
+      "category": "macro",
+      "severity": "low",
+      "management_response": "International operations management",
+      "mitigation": "Geographic diversification strategy"
+    },
+    {
+      "risk": "Tariff impact on imported products",
+      "category": "regulatory",
+      "severity": "high",
+      "management_response": "Accelerating manufacturing diversification beyond China, managing operating expenses, negotiating with suppliers, evaluating pricing strategies",
+      "mitigation": "Supply chain diversification, selective price increases, leveraging tariff exemptions where possible"
+    },
+    {
+      "risk": "Supply chain disruptions from manufacturing diversification",
+      "category": "operational",
+      "severity": "medium",
+      "management_response": "Accepting short-term disruptions for long-term resilience",
+      "mitigation": "Continuing diversification efforts while managing inventory constraints"
+    },
+    {
+      "risk": "Challenging macroeconomic environment and consumer spending",
+      "category": "macro",
+      "severity": "high",
+      "management_response": "Managing expenses and pursuing strategic options",
+      "mitigation": "Operational flexibility and cost management"
+    },
+    {
+      "risk": "Inventory constraints impacting sales",
+      "category": "operational",
+      "severity": "medium",
+      "management_response": "Expected to continue through Q4 2025",
+      "mitigation": "Supply chain optimization activities"
+    }
+  ],
+  "regulatory_and_legal": {
+    "ongoing_matters": [
+      {
+        "matter": "Product recalls and warranty liability",
+        "status": "Ongoing management with reserves",
+        "potential_impact": "Product recall reserves maintained"
+      },
+      {
+        "matter": "Various claims and legal proceedings",
+        "status": "Ongoing, some covered by insurance",
+        "potential_impact": "Not considered material"
+      }
+    ],
+    "regulatory_environment": "Trade policy discussions ongoing with uncertain outcomes regarding tariff rates",
+    "compliance_initiatives": "No specific compliance initiatives mentioned"
+  },
+  "management_commentary": {
+    "ceo_message": "Building towards long-term growth range of high single to low double digits through product innovation, brand expansion, and global presence. Approaching YETI's 20th anniversary with strongest innovation pipeline ever and significant global opportunity ahead.",
+    "cfo_message": "Strong operational execution despite challenging environment, with disciplined cost management and strategic investments supporting sustainable long-term growth and shareholder value creation.",
+    "outlook_sentiment": "Confident and optimistic about global momentum, innovation pipeline, and long-term growth potential",
+    "priorities": [
+      "Execute against three strategic growth pillars: product innovation, brand expansion, international growth",
+      "Continue supply chain diversification and operational excellence",
+      "Disciplined capital allocation with focus on growth investments and shareholder returns",
+      "Leverage AI and technology to enhance operations and customer experience",
+      "Maintaining brand strength and market position",
+      "Strategic acquisitions for product expansion",
+      "Aggressive share repurchase program execution",
+      "Supply chain diversification",
+      "Managing tariff impact and supply chain diversification",
+      "Continuing product innovation and international expansion",
+      "Operational expense management and cash optimization"
+    ]
+  },
+  "notable_quotes": [
+    {
+      "speaker": "Matt Reintjes, CEO",
+      "quote": "Our third quarter results continue to show the strength of YETI and the positive momentum of our long-term growth strategy. Anchored in accelerating product innovation, a powerful and growing global brand, and expanding international reach, we are seeing meaningful wins across all three strategic growth pillars.",
+      "context": "Opening remarks about Q3 performance",
+      "significance": "Demonstrates confidence in strategic execution and momentum"
+    },
+    {
+      "speaker": "Matt Reintjes, CEO",
+      "quote": "These initiatives are yielding meaningful results and building towards what we believe is a long-term top line growth range of high-single to low double-digits.",
+      "context": "Discussing strategic priorities and growth outlook",
+      "significance": "First time management has articulated specific long-term growth expectations"
+    },
+    {
+      "speaker": "Matt Reintjes, CEO",
+      "quote": "What's unfolding is not just market growth; it's a product-led, brand-endorsed movement. We're confident in the trajectory ahead and energized by the opportunity it represents.",
+      "context": "Discussing international expansion momentum",
+      "significance": "Shows conviction in global expansion strategy and opportunity"
+    },
+    {
+      "speaker": "Management (via forward-looking statements)",
+      "quote": "We believe that these assumptions underlying the forward-looking statements are reasonable, we caution that it is very difficult to predict the impact of known factors, and it is impossible for us to anticipate all factors that could affect actual results.",
+      "context": "Discussing forward-looking statements and business uncertainty",
+      "significance": "Highlights management's cautious approach to guidance and market conditions"
+    }
+  ],
+  "investor_highlights": {
+    "bull_case": [
+      "Strong international growth momentum with 'front of the wave' opportunity globally",
+      "Robust innovation pipeline with 30+ new products launched in 2025 despite supply chain transition",
+      "Successful supply chain diversification reducing geopolitical risk",
+      "Multiple growth drivers: product innovation, brand expansion, sports partnerships, international markets",
+      "Strong free cash flow generation enabling both growth investment and significant shareholder returns",
+      "Strong cash generation enabling significant share repurchases",
+      "Strategic acquisitions expanding product capabilities and market reach",
+      "Diversified channel strategy with strong DTC presence",
+      "International expansion opportunities",
+      "Strong international growth across all regions",
+      "Successful product innovation and category expansion",
+      "Premium brand positioning with loyal customer base",
+      "Balanced omni-channel distribution strategy"
+    ],
+    "bear_case": [
+      "Continued promotional pressure in core US Drinkware market",
+      "Conversion challenges on YETI.com indicating consumer shopping behavior shifts",
+      "Tariff headwinds creating margin pressure",
+      "Cautious retail environment affecting wholesale channel growth",
+      "Flat revenue growth indicating market challenges",
+      "Consumer spending sensitivity to economic conditions",
+      "Margin pressure from various operational factors",
+      "Integration risks from multiple acquisitions",
+      "Material negative impact from tariffs on gross margins",
+      "Inventory constraints affecting sales growth",
+      "Challenging consumer spending environment",
+      "Supply chain disruption risks from diversification efforts"
+    ],
+    "key_questions": [
+      "Can YETI sustain international growth momentum as markets mature?",
+      "Will sports expansion strategy deliver meaningful revenue growth?",
+      "How quickly can new product innovations offset Drinkware headwinds?",
+      "Can the company achieve target long-term growth rates amid macro uncertainty?",
+      "How will consumer spending trends affect YETI's premium positioning?",
+      "Can strategic acquisitions drive meaningful revenue growth?",
+      "What is the long-term impact of aggressive share repurchases on growth investment?",
+      "How quickly can manufacturing diversification be completed without further disruption?",
+      "Will consumer spending environment improve in 2026?",
+      "Can pricing strategies offset tariff impacts long-term?"
+    ],
+    "catalysts": [
+      {
+        "catalyst": "Investor Day",
+        "timeline": "First half of next year in Austin",
+        "potential_impact": "Detailed long-term strategy presentation and growth targets"
+      },
+      {
+        "catalyst": "Shaker bottle launch",
+        "timeline": "Q4 2025",
+        "potential_impact": "Entry into $2.5 billion wellness/sports supplement market"
+      },
+      {
+        "catalyst": "International market launches",
+        "timeline": "Three Asian markets in 2026",
+        "potential_impact": "Further geographic diversification and growth"
+      },
+      {
+        "catalyst": "Launch of powered cooler platform",
+        "timeline": "Not specified",
+        "potential_impact": "New product category could drive growth"
+      },
+      {
+        "catalyst": "Completion of China manufacturing diversification",
+        "timeline": "End of 2025",
+        "potential_impact": "Reduced tariff exposure and improved margins"
+      }
+    ]
+  },
+  "esg_and_sustainability": {
+    "environmental": "No specific environmental initiatives mentioned",
+    "social": "Strong focus on sports partnerships including women's sports, community engagement through 80+ global events",
+    "governance": "Disciplined capital allocation with significant share buybacks and growth investments",
+    "commitments": [
+      "Meeting environmental, social and governance goals",
+      "Appropriately addressing emerging ESG matters"
+    ]
+  },
+  "key_takeaways": [
+    "YETI successfully diversified supply chain and reduced geopolitical risk while maintaining product quality and cost competitiveness",
+    "International expansion showing exceptional momentum with strong growth across all regions, positioning company for significant long-term opportunity",
+    "Innovation pipeline remains robust with successful new product launches and strategic acquisitions enabling quick market entry",
+    "Sports market expansion strategy gaining traction with major league partnerships and strong early results from Fanatics collaboration",
+    "Management articulated confident long-term growth outlook of high single to low double digits, supported by diversified strategy and global opportunity",
+    "YETI is prioritizing capital returns through aggressive share repurchases while revenue growth remains challenged",
+    "Strategic acquisitions are being used to expand product capabilities across multiple categories including cookware and powered cooling",
+    "Management is taking a cautious approach to market conditions while focusing on supply chain diversification",
+    "The company maintains strong cash generation despite flat revenue growth, enabling continued strategic investments",
+    "International expansion continues as a key growth driver with operations across multiple global markets",
+    "YETI is actively managing significant tariff headwinds that materially impacted gross margins in 2025",
+    "The company is prioritizing long-term supply chain resilience through manufacturing diversification despite short-term disruptions",
+    "International expansion continues to show strong momentum across all regions, reducing U.S. dependence",
+    "Product innovation remains robust with successful expansion into new categories like outdoor kitchen equipment",
+    "Management expects challenging macroeconomic conditions to persist through the remainder of 2025"
+  ],
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "richness": "high",
+    "document_type": "earnings_release",
+    "notes": "Comprehensive earnings release with detailed management commentary and strategic initiatives discussion. Strong qualitative content around strategic direction and market positioning."
+  },
+  "_extraction_type": "strategic",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Yeti"
+}

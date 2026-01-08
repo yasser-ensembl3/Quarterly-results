@@ -1,0 +1,429 @@
+{
+  "company_info": {
+    "name": "NVIDIA Corporation",
+    "ticker": "NVDA",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2024-11-20",
+    "currency": "USD",
+    "company_type": "tech"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 35082,
+      "unit": "millions",
+      "yoy_pct": 94,
+      "qoq_pct": 17
+    },
+    "cost_of_revenue": {
+      "value": 8926,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 26156,
+      "margin_pct": 74.6
+    },
+    "operating_expenses": {
+      "value": 4287,
+      "breakdown": {
+        "research_and_development": 3390,
+        "sales_general_administrative": 897
+      }
+    },
+    "operating_income": {
+      "value": 21869,
+      "margin_pct": 62.3
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 19309,
+      "margin_pct": 55.0,
+      "yoy_pct": 109
+    },
+    "eps": {
+      "basic": 0.79,
+      "diluted": 0.78,
+      "yoy_pct": 111
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 9107,
+    "short_term_investments": 29380,
+    "total_cash": 38487,
+    "accounts_receivable": 17693,
+    "inventory": 7654,
+    "total_assets": 96013,
+    "accounts_payable": 5353,
+    "short_term_debt": 0,
+    "long_term_debt": 8462,
+    "total_debt": 8462,
+    "total_liabilities": 30114,
+    "shareholders_equity": 65899,
+    "net_cash_position": 30025
+  },
+  "cash_flow": {
+    "operating_cash_flow": 17629,
+    "investing_cash_flow": -4345,
+    "financing_cash_flow": -12748,
+    "capex": 813,
+    "free_cash_flow": 16787,
+    "dividends_paid": 245,
+    "share_repurchases": 10998
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Data Center",
+        "revenue": 30800,
+        "pct_of_total": 87.8,
+        "yoy_pct": 112
+      },
+      {
+        "name": "Gaming",
+        "revenue": 3279,
+        "pct_of_total": 9.3,
+        "yoy_pct": 15
+      },
+      {
+        "name": "Professional Visualization",
+        "revenue": 486,
+        "pct_of_total": 1.4,
+        "yoy_pct": 17
+      },
+      {
+        "name": "Automotive",
+        "revenue": 449,
+        "pct_of_total": 1.3,
+        "yoy_pct": 72
+      },
+      {
+        "name": "Data Center",
+        "revenue": 30800,
+        "pct_of_total": 87.8,
+        "yoy_pct": 112.0
+      },
+      {
+        "name": "Gaming",
+        "revenue": 3280,
+        "pct_of_total": 9.4,
+        "yoy_pct": -15.0
+      },
+      {
+        "name": "Professional Visualization",
+        "revenue": 486,
+        "pct_of_total": 1.4,
+        "yoy_pct": 17.0
+      },
+      {
+        "name": "Automotive",
+        "revenue": 449,
+        "pct_of_total": 1.3,
+        "yoy_pct": -30.0
+      },
+      {
+        "name": "OEM and Other",
+        "revenue": 69,
+        "pct_of_total": 0.2,
+        "yoy_pct": -72.0
+      },
+      {
+        "name": "Compute & Networking",
+        "revenue": 31036,
+        "pct_of_total": 88.5,
+        "yoy_pct": 112.0
+      },
+      {
+        "name": "Graphics",
+        "revenue": 4046,
+        "pct_of_total": 11.5,
+        "yoy_pct": 16.0
+      },
+      {
+        "name": "Compute & Networking",
+        "revenue": 31036,
+        "pct_of_total": 88.5,
+        "yoy_pct": 112
+      },
+      {
+        "name": "Graphics",
+        "revenue": 4046,
+        "pct_of_total": 11.5,
+        "yoy_pct": 16
+      },
+      {
+        "name": "Data Center",
+        "revenue": 30771,
+        "pct_of_total": 87.7,
+        "yoy_pct": 112.0
+      },
+      {
+        "name": "Gaming",
+        "revenue": 3279,
+        "pct_of_total": 9.3,
+        "yoy_pct": 14.8
+      },
+      {
+        "name": "Professional Visualization",
+        "revenue": 486,
+        "pct_of_total": 1.4,
+        "yoy_pct": 16.8
+      },
+      {
+        "name": "Auto",
+        "revenue": 449,
+        "pct_of_total": 1.3,
+        "yoy_pct": 72.0
+      },
+      {
+        "name": "OEM & Other",
+        "revenue": 97,
+        "pct_of_total": 0.3,
+        "yoy_pct": 32.9
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "United States",
+        "revenue": 14800,
+        "pct_of_total": 42.2,
+        "yoy_pct": 134.7
+      },
+      {
+        "region": "Singapore",
+        "revenue": 7697,
+        "pct_of_total": 21.9,
+        "yoy_pct": 184.9
+      },
+      {
+        "region": "China (including Hong Kong)",
+        "revenue": 5416,
+        "pct_of_total": 15.4,
+        "yoy_pct": 34.4
+      },
+      {
+        "region": "Taiwan",
+        "revenue": 5153,
+        "pct_of_total": 14.7,
+        "yoy_pct": 18.9
+      },
+      {
+        "region": "Other countries",
+        "revenue": 2016,
+        "pct_of_total": 5.7,
+        "yoy_pct": 167.7
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Data Center",
+        "revenue": 30771,
+        "pct_of_total": 87.7
+      },
+      {
+        "product": "Gaming",
+        "revenue": 3279,
+        "pct_of_total": 9.3
+      },
+      {
+        "product": "Professional Visualization",
+        "revenue": 486,
+        "pct_of_total": 1.4
+      },
+      {
+        "product": "Automotive",
+        "revenue": 449,
+        "pct_of_total": 1.3
+      },
+      {
+        "product": "OEM and Other",
+        "revenue": 97,
+        "pct_of_total": 0.3
+      },
+      {
+        "name": "Data Center",
+        "revenue": 30771,
+        "pct_of_total": 87.7
+      },
+      {
+        "name": "Data Center Compute",
+        "revenue": 27644,
+        "pct_of_total": 78.8
+      },
+      {
+        "name": "Data Center Networking",
+        "revenue": 3127,
+        "pct_of_total": 8.9
+      },
+      {
+        "name": "Gaming",
+        "revenue": 3279,
+        "pct_of_total": 9.3
+      },
+      {
+        "name": "Professional Visualization",
+        "revenue": 486,
+        "pct_of_total": 1.4
+      },
+      {
+        "name": "Automotive",
+        "revenue": 449,
+        "pct_of_total": 1.3
+      },
+      {
+        "name": "OEM and Other",
+        "revenue": 97,
+        "pct_of_total": 0.3
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Weighted Average Shares Outstanding (Diluted)",
+        "value": 24774,
+        "unit": "millions",
+        "yoy_pct": -0.7
+      },
+      {
+        "name": "Major Customers (>10% revenue)",
+        "value": 4,
+        "unit": "customers",
+        "yoy_pct": null
+      },
+      {
+        "name": "Days Sales Outstanding",
+        "value": 46,
+        "unit": "days",
+        "yoy_pct": null
+      },
+      {
+        "name": "Days Sales of Inventory",
+        "value": 78,
+        "unit": "days",
+        "yoy_pct": null
+      },
+      {
+        "name": "Shares Repurchased",
+        "value": 92.3,
+        "unit": "millions",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "data_center_revenue": 30800,
+    "data_center_yoy_growth": 112,
+    "gaming_revenue": 3279,
+    "gaming_yoy_growth": 15,
+    "professional_visualization_revenue": 486,
+    "automotive_revenue": 449,
+    "software_services_support_annualized": 1500,
+    "cloud_service_providers_pct_of_datacenter": 50,
+    "h200_revenue": "double-digit billions",
+    "spectrum_x_ethernet_yoy_growth": 300,
+    "stock_based_compensation": 3416,
+    "inventory_provision": 876,
+    "depreciation_and_amortization": 1321,
+    "shares_outstanding": 24508,
+    "weighted_average_shares_basic": 24577,
+    "weighted_average_shares_diluted": 24837,
+    "share_repurchase_authorization": 46400,
+    "dividends_per_share": 0.024,
+    "data_center_compute_revenue": 27644,
+    "networking_revenue": 3127,
+    "oem_other_revenue": 97,
+    "cloud_service_provider_pct": 50.0,
+    "acquisition_related_costs": 155,
+    "inventory_provisions": 865,
+    "inventory_provision_releases": 106,
+    "marketable_securities": 29380,
+    "purchase_commitments": 28900,
+    "supply_prepayments": 5200,
+    "cloud_service_agreements": 11300,
+    "interest_income": 472,
+    "average_share_price_repurchases": 118.41
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": 36750,
+      "revenue_high": 38250,
+      "revenue_midpoint": 37500,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "GAAP Gross Margin",
+          "low": 72.5,
+          "high": 73.5
+        },
+        {
+          "metric": "Non-GAAP Gross Margin",
+          "low": 73.0,
+          "high": 74.0
+        },
+        {
+          "metric": "GAAP Operating Expenses",
+          "low": 4800,
+          "high": 4800
+        },
+        {
+          "metric": "Non-GAAP Operating Expenses",
+          "low": 3400,
+          "high": 3400
+        },
+        {
+          "metric": "Other Income",
+          "low": 400,
+          "high": 400
+        },
+        {
+          "metric": "Tax Rate",
+          "low": 15.5,
+          "high": 17.5
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 813,
+    "capex_guidance": null,
+    "dividends_per_share": 0.01,
+    "buyback_authorization": 50000,
+    "buyback_remaining": 46400,
+    "shares_repurchased": 92
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Comprehensive financial data extracted from Q3 FY2025 earnings report. All major financial metrics captured with strong year-over-year growth across segments. Data Center segment dominates with 87.8% of revenue."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "nVidia"
+}

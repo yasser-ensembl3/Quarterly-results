@@ -1,0 +1,212 @@
+{
+  "company_info": {
+    "name": "LVMH Moët Hennessy Louis Vuitton",
+    "ticker": "MC",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-14",
+    "currency": "EUR",
+    "company_type": "retail"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 58090,
+      "unit": "millions",
+      "yoy_pct": -4.4,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": null,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": null,
+      "margin_pct": null
+    },
+    "operating_expenses": {
+      "value": null,
+      "breakdown": {}
+    },
+    "operating_income": {
+      "value": null,
+      "margin_pct": null
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": null,
+      "margin_pct": null,
+      "yoy_pct": null
+    },
+    "eps": {
+      "basic": null,
+      "diluted": null,
+      "yoy_pct": null
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": null,
+    "short_term_investments": null,
+    "total_cash": null,
+    "accounts_receivable": null,
+    "inventory": null,
+    "total_assets": null,
+    "accounts_payable": null,
+    "short_term_debt": null,
+    "long_term_debt": null,
+    "total_debt": null,
+    "total_liabilities": null,
+    "shareholders_equity": null,
+    "net_cash_position": null
+  },
+  "cash_flow": {
+    "operating_cash_flow": null,
+    "investing_cash_flow": null,
+    "financing_cash_flow": null,
+    "capex": null,
+    "free_cash_flow": null,
+    "dividends_paid": null,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Wines & Spirits",
+        "revenue": 3917,
+        "pct_of_total": 6.7,
+        "yoy_pct": -6.6
+      },
+      {
+        "name": "Fashion & Leather Goods",
+        "revenue": 27611,
+        "pct_of_total": 47.5,
+        "yoy_pct": -7.7
+      },
+      {
+        "name": "Perfumes & Cosmetics",
+        "revenue": 6040,
+        "pct_of_total": 10.4,
+        "yoy_pct": -1.8
+      },
+      {
+        "name": "Watches & Jewelry",
+        "revenue": 7409,
+        "pct_of_total": 12.8,
+        "yoy_pct": -1.7
+      },
+      {
+        "name": "Selective Retailing",
+        "revenue": 12613,
+        "pct_of_total": 21.7,
+        "yoy_pct": 0.4
+      },
+      {
+        "name": "Other activities and eliminations",
+        "revenue": 500,
+        "pct_of_total": 0.9,
+        "yoy_pct": 26.6
+      }
+    ],
+    "by_geography": [],
+    "by_product": []
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": []
+  },
+  "sector_specific": {
+    "organic_growth_rates": {
+      "wines_spirits_q1": -9.0,
+      "wines_spirits_q2": -4.0,
+      "wines_spirits_q3": 1.0,
+      "wines_spirits_9m": -4.0,
+      "fashion_leather_q1": -5.0,
+      "fashion_leather_q2": -9.0,
+      "fashion_leather_q3": -2.0,
+      "fashion_leather_9m": -6.0,
+      "perfumes_cosmetics_q1": -1.0,
+      "perfumes_cosmetics_q2": 1.0,
+      "perfumes_cosmetics_q3": 2.0,
+      "perfumes_cosmetics_9m": 0.0,
+      "watches_jewelry_q1": 0.0,
+      "watches_jewelry_q2": 0.0,
+      "watches_jewelry_q3": 2.0,
+      "watches_jewelry_9m": 1.0,
+      "selective_retailing_q1": -1.0,
+      "selective_retailing_q2": 4.0,
+      "selective_retailing_q3": 7.0,
+      "selective_retailing_9m": 3.0,
+      "total_q1": -3.0,
+      "total_q2": -4.0,
+      "total_q3": 1.0,
+      "total_9m": -2.0
+    },
+    "quarterly_revenue_2025": {
+      "q1_total": 20311,
+      "q2_total": 19499,
+      "q3_total": 18280,
+      "h1_total": 39810
+    },
+    "quarterly_revenue_2024": {
+      "q1_total": 20694,
+      "q2_total": 20983,
+      "q3_total": 19076,
+      "h1_total": 41677,
+      "9m_total": 60753
+    },
+    "currency_impact": {
+      "nine_months_2025": -2.0,
+      "q3_2025": -5.0
+    }
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": null,
+    "capex_guidance": null,
+    "dividends_per_share": null,
+    "buyback_authorization": null,
+    "buyback_remaining": null,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "medium",
+    "notes": "Revenue data comprehensive with quarterly breakdowns and organic growth rates. Limited to revenue metrics only - no income statement, balance sheet, or cash flow data available. Some sample data tables contained placeholder values (€X, €Y, €Z) that were excluded."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "LVMH"
+}

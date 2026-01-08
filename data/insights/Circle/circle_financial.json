@@ -1,0 +1,440 @@
+{
+  "company_info": {
+    "name": "Circle Internet Group, Inc.",
+    "ticker": "CRCL",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-09-30",
+    "currency": "USD",
+    "company_type": "crypto"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 739.759,
+      "unit": "millions",
+      "yoy_pct": 65.9,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": null,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": null,
+      "margin_pct": null
+    },
+    "operating_expenses": {
+      "value": 211.127,
+      "breakdown": {
+        "compensation_expenses": 129.295,
+        "general_and_administrative": 45.477,
+        "depreciation_and_amortization": 23.002,
+        "it_infrastructure_costs": 9.401,
+        "marketing_expenses": 5.623,
+        "digital_assets_gains_losses": -1.671
+      }
+    },
+    "operating_income": {
+      "value": 81.02,
+      "margin_pct": 10.95,
+      "yoy_pct": 27.0
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 214.385,
+      "margin_pct": 29.0,
+      "yoy_pct": 201.9
+    },
+    "eps": {
+      "basic": 0.93,
+      "diluted": 0.64,
+      "yoy_pct": null
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 1348.901,
+    "short_term_investments": null,
+    "total_cash": 75562.109,
+    "accounts_receivable": 22.154,
+    "inventory": null,
+    "total_assets": 76781.008,
+    "accounts_payable": 268.955,
+    "short_term_debt": 149.094,
+    "long_term_debt": 0,
+    "total_debt": 149.094,
+    "total_liabilities": 73757.652,
+    "shareholders_equity": 3023.356,
+    "net_cash_position": 75412.015
+  },
+  "cash_flow": {
+    "operating_cash_flow": 293.034,
+    "investing_cash_flow": -66.45,
+    "financing_cash_flow": 30314.79,
+    "capex": 11.481,
+    "free_cash_flow": 281.553,
+    "dividends_paid": null,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Reserve Income",
+        "revenue": 711.241,
+        "pct_of_total": 96.1,
+        "yoy_pct": 59.7
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 28.518,
+        "pct_of_total": 3.9,
+        "yoy_pct": 5113.7
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 28.518,
+        "pct_of_total": 3.9,
+        "yoy_pct": 5114.4
+      },
+      {
+        "name": "Reserve income",
+        "revenue": 711.241,
+        "pct_of_total": 96.1,
+        "yoy_pct": 59.8
+      },
+      {
+        "name": "Other revenue",
+        "revenue": 28.518,
+        "pct_of_total": 3.9,
+        "yoy_pct": null
+      },
+      {
+        "name": "Reserve Income",
+        "revenue": 711,
+        "pct_of_total": 96.1,
+        "yoy_pct": 60
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 29,
+        "pct_of_total": 3.9,
+        "yoy_pct": null
+      },
+      {
+        "name": "Reserve Income",
+        "revenue": 711,
+        "pct_of_total": 96.1,
+        "yoy_pct": null
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 29,
+        "pct_of_total": 3.9,
+        "yoy_pct": 5210
+      }
+    ],
+    "by_geography": [],
+    "by_product": [
+      {
+        "product": "Subscription and services",
+        "revenue": 23.594,
+        "pct_of_total": 3.2
+      },
+      {
+        "product": "Transaction revenue",
+        "revenue": 4.664,
+        "pct_of_total": 0.6
+      },
+      {
+        "product": "Other",
+        "revenue": 0.26,
+        "pct_of_total": 0.0
+      },
+      {
+        "product": "Circle stablecoins",
+        "revenue": null,
+        "pct_of_total": 96.1
+      },
+      {
+        "product": "Other products",
+        "revenue": null,
+        "pct_of_total": 3.9
+      },
+      {
+        "product": "Subscription and Services Revenue",
+        "revenue": 23.6,
+        "pct_of_total": null
+      },
+      {
+        "product": "Transaction Revenue",
+        "revenue": 4.7,
+        "pct_of_total": null
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Meaningful Wallets",
+        "value": 6.34,
+        "unit": "millions",
+        "yoy_pct": 77.1
+      },
+      {
+        "name": "Meaningful Wallets",
+        "value": 6.3,
+        "unit": "millions",
+        "yoy_pct": 77
+      },
+      {
+        "name": "USDC Minted",
+        "value": 79.7,
+        "unit": "billions",
+        "yoy_pct": 128
+      },
+      {
+        "name": "USDC Redeemed",
+        "value": 67.3,
+        "unit": "billions",
+        "yoy_pct": 112
+      },
+      {
+        "name": "Blockchains Supported",
+        "value": 28,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Countries Supported",
+        "value": 185,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "USDC Circulation",
+        "value": 73700,
+        "unit": "millions",
+        "yoy_pct": 100
+      },
+      {
+        "name": "USYC Size",
+        "value": 1000,
+        "unit": "millions",
+        "yoy_pct": 200
+      },
+      {
+        "name": "CPN Monthly TPV Growth",
+        "value": 100,
+        "unit": "times",
+        "yoy_pct": null
+      },
+      {
+        "name": "CPN Annualized Transaction Volume",
+        "value": 3400,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Financial Institutions Enrolled on CPN",
+        "value": 29,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Financial Institutions in Eligibility Review",
+        "value": 55,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Financial Institutions Pipeline",
+        "value": 500,
+        "unit": "count",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "deposits_from_stablecoin_holders": 73267.103,
+    "cash_segregated_for_stablecoin_holders": 73372.843,
+    "cash_segregated_for_corporate_stablecoins": 837.143,
+    "circle_reserve_fund_holdings": 64200,
+    "distribution_and_transaction_costs": 447.199,
+    "digital_assets": 51.55,
+    "stablecoins_receivable": 1.0,
+    "usdc_circulation_beginning": 61333.0,
+    "usdc_circulation_ending": 73749.0,
+    "usdc_minted": 79680.0,
+    "usdc_redeemed": 67264.0,
+    "net_usdc_increase": 12416.0,
+    "reserve_return_rate": 4.15,
+    "digital_assets_fair_value": 51.55,
+    "digital_assets_cost_basis": 42.065,
+    "circle_reserve_fund": 64200.0,
+    "total_onchain_transactions": 41400000.0,
+    "amortization_expense_intangible": 22.03,
+    "stock_based_compensation": 59.1,
+    "intangible_assets_net": 411.99,
+    "strategic_investments": 81.8,
+    "usdc_in_circulation": 73749.0,
+    "average_usdc_in_circulation": 67842.0,
+    "usdc_on_platform": 10234.0,
+    "daily_weighted_avg_usdc_on_platform_pct": 13.5,
+    "stablecoin_market_share_pct": 29.0,
+    "cctp_routes": 380,
+    "cctp_transfer_volume": 88800.0,
+    "total_stablecoin_market_size": 253900.0,
+    "access_denied_tokens": 114.3,
+    "corporate_held_usdc": 837.1,
+    "distribution_costs_coinbase": 989.1,
+    "coinbase_platform_percentage": 24.0,
+    "circle_platform_percentage": 14.0,
+    "outside_platforms_percentage": 62.0,
+    "stablecoin_reserves_cash": 9649.0,
+    "stablecoin_holders_segregated_cash": 73400.0,
+    "corporate_held_stablecoins_cash": 837.1,
+    "usdc_reserves_total": 73814.0,
+    "interest_income": 13.453,
+    "interest_expense": 0.354,
+    "legal_expenses": 3.014,
+    "depreciation_amortization": 23.002,
+    "fdic_insurance_coverage": 1.3,
+    "average_yield_cash": 3.54,
+    "average_yield_circle_reserve_fund": 4.24,
+    "usdc_reserves_percentage_in_circle_reserve_fund": 87.0,
+    "usdc_reserves_percentage_as_cash_at_banks": 13.0,
+    "reserve_income_percentage_of_total_revenue_2024": 99.1,
+    "reserve_income_percentage_of_total_revenue_2023": 98.6,
+    "reserve_income_percentage_of_total_revenue_2022": 95.3,
+    "reserve_income_percentage_of_total_revenue_9m_2025": 96.3,
+    "reserve_income_percentage_of_total_revenue_9m_2024": 99.0,
+    "oecd_minimum_corporate_tax_rate": 15.0,
+    "oecd_revenue_threshold_euros": 750.0,
+    "ft_partners_fee_percentage": 7.0,
+    "ft_partners_dispute_cash_proceeds": 1400.0,
+    "average_usdc_circulation": {
+      "value": 67.8,
+      "unit": "billions",
+      "yoy_pct": 97
+    },
+    "stablecoin_market_share": {
+      "value": 29,
+      "unit": "percent",
+      "yoy_change": 643
+    },
+    "daily_weighted_avg_usdc_on_platform": {
+      "value": 13.5,
+      "unit": "percent"
+    },
+    "cpn_enrolled_institutions": 29,
+    "cpn_pipeline_institutions": 500,
+    "cpn_annualized_transaction_volume": {
+      "value": 3.4,
+      "unit": "billions"
+    },
+    "usyc_value": {
+      "value": 1.0,
+      "unit": "billions"
+    },
+    "usdc_circulation": {
+      "value": 73.7,
+      "unit": "billions",
+      "yoy_pct": 108
+    },
+    "onchain_transaction_volume": {
+      "value": 9600,
+      "unit": "billions",
+      "yoy_pct": 580
+    },
+    "cctp_volume": {
+      "value": 31.3,
+      "unit": "billions",
+      "yoy_pct": 640
+    },
+    "distribution_transaction_costs": {
+      "value": 448,
+      "unit": "millions",
+      "yoy_pct": 74
+    },
+    "cumulative_usdc_minted_redeemed": {
+      "value": 1000000,
+      "unit": "millions"
+    },
+    "cumulative_onchain_transaction_volume": {
+      "value": 41000000,
+      "unit": "millions"
+    },
+    "cpn_annualized_tpv": {
+      "value": 3.4,
+      "unit": "billions"
+    },
+    "cpn_trailing_tpv_growth": {
+      "value": 10100,
+      "unit": "percent"
+    },
+    "usdc_market_share": 29,
+    "usdc_on_platform_pct": 14,
+    "rldc_margin": 39.5,
+    "subscription_revenue": 23.6,
+    "transaction_revenue": 4.7,
+    "other_revenue": 29,
+    "adjusted_ebitda": 166,
+    "adjusted_ebitda_margin": 57,
+    "blockchain_network_partnerships": 12,
+    "new_chains_added_quarter": 5,
+    "usyc_tokenized_money_market_fund": 1000,
+    "cpn_payment_volume_growth": 100,
+    "cpn_annualized_volume": 3400
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 11.481,
+    "capex_guidance": null,
+    "dividends_per_share": null,
+    "buyback_authorization": null,
+    "buyback_remaining": null,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Financial data is comprehensive with detailed breakdown of stablecoin-related metrics. Company completed IPO in June 2025 and follow-on offering in August 2025. Nine-month data shows net loss of $202.924 million despite Q3 profitability due to significant stock-based compensation expenses."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Circle"
+}

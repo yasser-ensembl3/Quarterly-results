@@ -1,0 +1,313 @@
+{
+  "company_info": {
+    "name": "Shopify Inc.",
+    "ticker": "SHOP",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-09-30",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 2844,
+      "unit": "millions",
+      "yoy_pct": 31.5,
+      "qoq_pct": 6.1
+    },
+    "cost_of_revenue": {
+      "value": 1453,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 1391,
+      "margin_pct": 48.9
+    },
+    "operating_expenses": {
+      "value": 1048,
+      "breakdown": {
+        "sales_and_marketing": 410,
+        "research_and_development": 375,
+        "general_and_administrative": 115,
+        "transaction_and_loan_losses": 148
+      }
+    },
+    "operating_income": {
+      "value": 343,
+      "margin_pct": 12.1
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 264,
+      "margin_pct": 9.3,
+      "yoy_pct": -68.1
+    },
+    "eps": {
+      "basic": 0.2,
+      "diluted": 0.2,
+      "yoy_pct": -68.8
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 2414,
+    "short_term_investments": 3935,
+    "total_cash": 6349,
+    "accounts_receivable": 396,
+    "inventory": null,
+    "total_assets": 15039,
+    "accounts_payable": 974,
+    "short_term_debt": 920,
+    "long_term_debt": 920,
+    "total_debt": 920,
+    "total_liabilities": 2528,
+    "shareholders_equity": 12511,
+    "net_cash_position": 5429
+  },
+  "cash_flow": {
+    "operating_cash_flow": 1616,
+    "investing_cash_flow": 335,
+    "financing_cash_flow": 24,
+    "capex": 19,
+    "free_cash_flow": 1600,
+    "dividends_paid": null,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Subscription solutions",
+        "revenue": 699,
+        "pct_of_total": 24.6,
+        "yoy_pct": 14.6
+      },
+      {
+        "name": "Merchant solutions",
+        "revenue": 2145,
+        "pct_of_total": 75.4,
+        "yoy_pct": 38.2
+      },
+      {
+        "name": "Subscription solutions",
+        "revenue": 699,
+        "pct_of_total": 25,
+        "yoy_pct": 15
+      },
+      {
+        "name": "Merchant solutions",
+        "revenue": 2145,
+        "pct_of_total": 75,
+        "yoy_pct": 38
+      },
+      {
+        "name": "Subscription solutions",
+        "revenue": 699,
+        "pct_of_total": 24.6,
+        "yoy_pct": 15
+      },
+      {
+        "name": "Merchant solutions",
+        "revenue": 2145,
+        "pct_of_total": 75.4,
+        "yoy_pct": 38
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "United States",
+        "revenue": 1783,
+        "pct_of_total": 63,
+        "yoy_pct": null
+      },
+      {
+        "region": "Canada",
+        "revenue": 138,
+        "pct_of_total": 5,
+        "yoy_pct": null
+      },
+      {
+        "region": "EMEA",
+        "revenue": 615,
+        "pct_of_total": 21,
+        "yoy_pct": null
+      },
+      {
+        "region": "APAC",
+        "revenue": 282,
+        "pct_of_total": 10,
+        "yoy_pct": null
+      },
+      {
+        "region": "Latin America",
+        "revenue": 26,
+        "pct_of_total": 1,
+        "yoy_pct": null
+      }
+    ],
+    "by_product": []
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Free Cash Flow Margin",
+        "value": 18.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Cumulative GMV",
+        "value": 1000000,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Online Shoppers",
+        "value": 875,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Shares outstanding",
+        "value": 1301281052,
+        "unit": "shares",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock-based compensation",
+        "value": 107,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Loans and merchant cash advances",
+        "value": 1733,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted average shares outstanding (basic)",
+        "value": 1300.07,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted average shares outstanding (diluted)",
+        "value": 1312.87,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock-based compensation",
+        "value": 116,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Interest income on marketable securities",
+        "value": 88,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Foreign exchange gain",
+        "value": 9,
+        "unit": "millions",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "subscription_solutions_cost": 128,
+    "merchant_solutions_cost": 1325,
+    "stock_based_compensation": 116,
+    "amortization_intangible_assets": 3,
+    "impairment_rou_assets": 3,
+    "non_gaap_operating_income": 465,
+    "non_gaap_operating_margin": 16.3,
+    "non_gaap_net_income": 441,
+    "non_gaap_diluted_eps": 0.34,
+    "gmv": 292000,
+    "gmv_yoy_pct": 24.0,
+    "countries_served": 175,
+    "cumulative_gmv": 1000000,
+    "revenue": 8880,
+    "free_cash_flow_margin": 18.0,
+    "loans_and_advances": 1733,
+    "transaction_and_loan_losses": 148,
+    "subscription_revenue": 699,
+    "merchant_revenue": 2145,
+    "equity_investments": 4363,
+    "mrr": 193,
+    "loans_receivable_gross": 1560,
+    "merchant_cash_advances_gross": 350,
+    "loans_and_merchant_cash_advances_net": 1733,
+    "allowance_for_credit_losses_loans": 144,
+    "allowance_for_credit_losses_mca": 33,
+    "deferred_revenue": 410,
+    "loans_purchased": 1000,
+    "lending_revenue": 66,
+    "goodwill": 491,
+    "intangible_assets_net": 33,
+    "convertible_notes_principal": 920,
+    "convertible_notes_net_carrying": 920,
+    "convertible_notes_fair_value": 969,
+    "stock_options_outstanding": 11.92,
+    "rsus_outstanding": 3.88,
+    "mrr_yoy_pct": 10.3,
+    "loans_and_merchant_advances": 1733,
+    "equity_and_other_investments": 4363,
+    "equity_method_investment": 574,
+    "transaction_revenue": 2145
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 19,
+    "capex_guidance": null,
+    "dividends_per_share": null,
+    "buyback_authorization": null,
+    "buyback_remaining": null,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.9,
+    "data_completeness": "medium",
+    "notes": "Complete income statement data available with quarterly comparisons. Missing balance sheet and cash flow data. Document includes both GAAP and non-GAAP metrics. Share information available but no traditional financial ratios provided."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Shopify"
+}

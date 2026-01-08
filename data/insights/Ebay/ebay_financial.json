@@ -1,0 +1,338 @@
+{
+  "company_info": {
+    "name": "eBay Inc.",
+    "ticker": "EBAY",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-29",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 2820,
+      "unit": "millions",
+      "yoy_pct": 9.0,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": 821,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 1999,
+      "margin_pct": 70.9
+    },
+    "operating_expenses": {
+      "value": 1423,
+      "breakdown": {
+        "sales_and_marketing": 606,
+        "product_development": 423,
+        "general_and_administrative": 282,
+        "provision_for_transaction_losses": 106,
+        "amortization_of_acquired_intangible_assets": 6
+      }
+    },
+    "operating_income": {
+      "value": 576,
+      "margin_pct": 20.4
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 597,
+      "margin_pct": 21.2,
+      "yoy_pct": -6.1
+    },
+    "eps": {
+      "basic": 1.31,
+      "diluted": 1.28,
+      "yoy_pct": -0.8
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 2423,
+    "short_term_investments": 955,
+    "total_cash": 5300,
+    "accounts_receivable": 1262,
+    "inventory": null,
+    "total_assets": 17791,
+    "accounts_payable": 308,
+    "short_term_debt": 1748,
+    "long_term_debt": 5003,
+    "total_debt": 6751,
+    "total_liabilities": 13072,
+    "shareholders_equity": 4719,
+    "net_cash_position": -1451
+  },
+  "cash_flow": {
+    "operating_cash_flow": 934,
+    "investing_cash_flow": 265,
+    "financing_cash_flow": -874,
+    "capex": 131,
+    "free_cash_flow": 803,
+    "dividends_paid": 132,
+    "share_repurchases": 625
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "First-party ads",
+        "revenue": 496,
+        "pct_of_total": null,
+        "yoy_pct": 23.0
+      },
+      {
+        "name": "Third-party display ads",
+        "revenue": 7,
+        "pct_of_total": null,
+        "yoy_pct": -40.0
+      },
+      {
+        "name": "Off-platform ads",
+        "revenue": 22,
+        "pct_of_total": null,
+        "yoy_pct": 32.0
+      },
+      {
+        "name": "Total advertising revenue",
+        "revenue": 525,
+        "pct_of_total": null,
+        "yoy_pct": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "International",
+        "revenue": 1354,
+        "pct_of_total": 48.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "United States",
+        "revenue": 1466,
+        "pct_of_total": 52.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "United States",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "region": "International",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": null
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Total advertising revenue",
+        "revenue": 525,
+        "pct_of_total": 18.6
+      },
+      {
+        "product": "First-party advertising",
+        "revenue": 496,
+        "pct_of_total": 17.6
+      },
+      {
+        "product": "Third-party display ads",
+        "revenue": 7,
+        "pct_of_total": 0.2
+      },
+      {
+        "product": "Off-platform ads",
+        "revenue": 22,
+        "pct_of_total": 0.8
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": 134,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Active Buyers",
+        "value": 134,
+        "unit": "millions",
+        "yoy_pct": 1.0
+      },
+      {
+        "name": "Enthusiast buyers",
+        "value": 16,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Annual spend per enthusiast",
+        "value": 3200,
+        "unit": "USD",
+        "yoy_pct": null
+      },
+      {
+        "name": "Total listings",
+        "value": 2400,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Active Promoted Listings",
+        "value": 1200,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Sellers using Promoted Listings",
+        "value": 4.4,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Motors P&A listings",
+        "value": 750,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Enthusiast buyers",
+        "value": 16000000,
+        "unit": "users",
+        "yoy_pct": 0.0
+      },
+      {
+        "name": "Spend per enthusiast buyer (TTM)",
+        "value": 3200,
+        "unit": "USD",
+        "yoy_pct": null
+      },
+      {
+        "name": "Listings count",
+        "value": 2400000000,
+        "unit": "listings",
+        "yoy_pct": null
+      },
+      {
+        "name": "Items augmented with AI",
+        "value": 300000000,
+        "unit": "items",
+        "yoy_pct": null
+      },
+      {
+        "name": "Sellers using Magical Listings",
+        "value": 10000000,
+        "unit": "sellers",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "gmv": 20105,
+    "gmv_us": 9872,
+    "gmv_international": 10233,
+    "gmv_yoy_pct": 10.0,
+    "gmv_us_yoy_pct": 13.0,
+    "gmv_international_yoy_pct": 7.0,
+    "take_rate_pct": 14.0,
+    "advertising_gmv_penetration_pct": 2.6,
+    "focus_categories_gmv_growth_pct": 15.0,
+    "average_selling_price": null,
+    "orders": null,
+    "seller_capital_distributed": 1000,
+    "seller_capital_2025": 200,
+    "focus_categories_growth": 15.0,
+    "take_rate": 14.0,
+    "advertising_gmv_penetration": 2.6,
+    "equity_investments_value": 900,
+    "share_repurchase_avg_price": 88
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": 2830,
+      "revenue_high": 2890,
+      "revenue_midpoint": 2860,
+      "eps_low": 1.31,
+      "eps_high": 1.36,
+      "other": [
+        {
+          "metric": "GMV",
+          "low": 20500,
+          "high": 20900
+        },
+        {
+          "metric": "FX-Neutral Revenue Growth",
+          "low": 8,
+          "high": 10
+        },
+        {
+          "metric": "FX-Neutral GMV Growth",
+          "low": 4,
+          "high": 6
+        },
+        {
+          "metric": "GAAP EPS",
+          "low": 0.96,
+          "high": 1.01
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": 10970,
+      "revenue_high": 11030,
+      "eps_low": 5.42,
+      "eps_high": 5.47,
+      "other": [
+        {
+          "metric": "GMV",
+          "guidance": "$78.9-$79.3 billion"
+        },
+        {
+          "metric": "FX-Neutral Revenue Growth",
+          "guidance": "6%"
+        },
+        {
+          "metric": "FX-Neutral GMV Growth",
+          "guidance": "5%"
+        },
+        {
+          "metric": "GAAP EPS",
+          "guidance": "$4.09-$4.14"
+        }
+      ]
+    }
+  },
+  "capital_allocation": {
+    "capex": 131,
+    "capex_guidance": "4-5% of revenue",
+    "dividends_per_share": 0.29,
+    "buyback_authorization": null,
+    "buyback_remaining": 1400,
+    "shares_repurchased": 7
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Comprehensive financial data extracted from Q3 2025 earnings report including detailed revenue breakdowns, balance sheet, cash flow, and sector-specific ecommerce metrics. Non-GAAP metrics also captured separately."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Ebay"
+}
