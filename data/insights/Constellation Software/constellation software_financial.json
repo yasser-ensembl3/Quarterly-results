@@ -1,0 +1,421 @@
+{
+  "company_info": {
+    "name": "Constellation Software Inc.",
+    "ticker": "CSU",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-11-07",
+    "currency": "USD",
+    "company_type": "tech"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 2948,
+      "unit": "millions",
+      "yoy_pct": 16,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": null,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": null,
+      "margin_pct": null
+    },
+    "operating_expenses": {
+      "value": 2141,
+      "breakdown": {
+        "staff": 1487,
+        "hardware": 51,
+        "third_party_license_maintenance_professional": 285,
+        "occupancy": 17,
+        "travel_telecommunications_supplies": 149,
+        "professional_fees": 55,
+        "other": 45,
+        "depreciation": 52
+      }
+    },
+    "operating_income": {
+      "value": null,
+      "margin_pct": null
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 210,
+      "margin_pct": 7.1,
+      "yoy_pct": 28
+    },
+    "eps": {
+      "basic": 9.89,
+      "diluted": 9.89,
+      "yoy_pct": 28
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 2770,
+    "short_term_investments": null,
+    "total_cash": 2770,
+    "accounts_receivable": 1286,
+    "inventory": 74,
+    "total_assets": 15326,
+    "accounts_payable": 1714,
+    "short_term_debt": 1143,
+    "long_term_debt": 3872,
+    "total_debt": 5014,
+    "total_liabilities": 11222,
+    "shareholders_equity": 4103,
+    "net_cash_position": -2244
+  },
+  "cash_flow": {
+    "operating_cash_flow": 685,
+    "investing_cash_flow": -1351,
+    "financing_cash_flow": 100,
+    "capex": 16,
+    "free_cash_flow": 529,
+    "dividends_paid": 21,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Constellation Software Inc. (excluding Topicus & Lumine)",
+        "revenue": 2311,
+        "pct_of_total": 78.4,
+        "yoy_pct": null
+      },
+      {
+        "name": "Topicus",
+        "revenue": 450,
+        "pct_of_total": 15.3,
+        "yoy_pct": null
+      },
+      {
+        "name": "Lumine",
+        "revenue": 187,
+        "pct_of_total": 6.3,
+        "yoy_pct": null
+      },
+      {
+        "name": "License",
+        "revenue": 107,
+        "pct_of_total": 3.6,
+        "yoy_pct": 27.4
+      },
+      {
+        "name": "Professional services",
+        "revenue": 538,
+        "pct_of_total": 18.2,
+        "yoy_pct": 10.5
+      },
+      {
+        "name": "Hardware and other",
+        "revenue": 89,
+        "pct_of_total": 3.0,
+        "yoy_pct": 14.1
+      },
+      {
+        "name": "Maintenance and other recurring",
+        "revenue": 2213,
+        "pct_of_total": 75.1,
+        "yoy_pct": 16.9
+      },
+      {
+        "name": "Licenses",
+        "revenue": 107,
+        "pct_of_total": null,
+        "yoy_pct": 27
+      },
+      {
+        "name": "Professional Services",
+        "revenue": 538,
+        "pct_of_total": null,
+        "yoy_pct": 11
+      },
+      {
+        "name": "Hardware and Other",
+        "revenue": 89,
+        "pct_of_total": null,
+        "yoy_pct": 15
+      },
+      {
+        "name": "Maintenance and Other Recurring",
+        "revenue": 2213,
+        "pct_of_total": null,
+        "yoy_pct": 17
+      },
+      {
+        "name": "Topicus Coop",
+        "revenue": 453,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Adapt-IT",
+        "revenue": 27,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Lumine",
+        "revenue": 187,
+        "pct_of_total": null,
+        "yoy_pct": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "USD",
+        "revenue": null,
+        "pct_of_total": 48.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "EUR",
+        "revenue": null,
+        "pct_of_total": 21.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "GBP",
+        "revenue": null,
+        "pct_of_total": 8.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "CAD",
+        "revenue": null,
+        "pct_of_total": 5.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "AUD",
+        "revenue": null,
+        "pct_of_total": 5.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "BRL",
+        "revenue": null,
+        "pct_of_total": 3.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "CHF",
+        "revenue": null,
+        "pct_of_total": 1.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "SEK",
+        "revenue": null,
+        "pct_of_total": 1.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "Others",
+        "revenue": null,
+        "pct_of_total": 8.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "USD",
+        "revenue": 1414,
+        "pct_of_total": 48.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "EUR",
+        "revenue": 619,
+        "pct_of_total": 21.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "GBP",
+        "revenue": 236,
+        "pct_of_total": 8.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "CAD",
+        "revenue": 147,
+        "pct_of_total": 5.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "AUD",
+        "revenue": 147,
+        "pct_of_total": 5.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "BRL",
+        "revenue": 88,
+        "pct_of_total": 3.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "CHF",
+        "revenue": 29,
+        "pct_of_total": 1.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "SEK",
+        "revenue": 29,
+        "pct_of_total": 1.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "Others",
+        "revenue": 236,
+        "pct_of_total": 8.0,
+        "yoy_pct": null
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Licenses",
+        "revenue": 107,
+        "pct_of_total": 3.6
+      },
+      {
+        "product": "Professional services",
+        "revenue": 538,
+        "pct_of_total": 18.2
+      },
+      {
+        "product": "Hardware and other",
+        "revenue": 89,
+        "pct_of_total": 3.0
+      },
+      {
+        "product": "Maintenance and other recurring",
+        "revenue": 2213,
+        "pct_of_total": 75.1
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Organic Growth (three months)",
+        "value": 5,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Organic Growth (nine months)",
+        "value": 3,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted Average Shares Outstanding",
+        "value": 21.2,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Organic Growth Q3",
+        "value": 5,
+        "unit": "percent",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "free_cash_flow_available_to_shareholders": 529,
+    "fcfa2s_per_share": 24.96,
+    "amortization_of_intangible_assets": 307,
+    "foreign_exchange_gain": 17,
+    "impairment_charges": 12,
+    "maintenance_and_other_recurring_organic_growth": 6,
+    "professional_services_organic_growth": -1,
+    "license_organic_growth": 19,
+    "intangible_assets": 8045,
+    "goodwill": 1638,
+    "technology_assets": 2464,
+    "customer_assets": 3921,
+    "business_acquisitions_count": "multiple",
+    "acquisition_consideration": 1016,
+    "software_markets_served": "100+",
+    "acquisition_spend": 955,
+    "topicus_ownership_pct": 31.3,
+    "lumine_ownership_pct": 61.4,
+    "non_controlling_interests": -48,
+    "amortization_intangible_assets": 307,
+    "business_acquisitions_value": 1016,
+    "contingent_consideration": 210,
+    "acquisition_holdback_payables": 416,
+    "equity_investments": {
+      "fair_value_level_1": 48,
+      "fair_value_level_3_derivatives": 119,
+      "contingent_consideration": 210,
+      "derivative_liabilities": 44
+    },
+    "acquisitions": {
+      "contingent_consideration_payments": 59,
+      "business_acquisitions_increase": 55,
+      "subsequent_acquisitions_committed": 454
+    },
+    "asseco_transaction": {
+      "shares_acquired": 12318863,
+      "ownership_percentage": 14.84,
+      "price_per_share_pln": 85,
+      "total_purchase_price": 289
+    }
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 16,
+    "capex_guidance": null,
+    "dividends_per_share": 1.0,
+    "buyback_authorization": null,
+    "buyback_remaining": null,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.9,
+    "data_completeness": "high",
+    "notes": "Comprehensive financial data extracted from Q3 2025 report. Nine months data also available: Revenue $8,446M (+15% YoY), Net Income $402M (-10% YoY), Operating Cash Flow $1,944M (+28% YoY), Free Cash Flow Available to Shareholders $1,259M (+27% YoY). Company has complex subsidiary structure with Topicus and Lumine providing separate financial breakdowns."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Constellation Software"
+}

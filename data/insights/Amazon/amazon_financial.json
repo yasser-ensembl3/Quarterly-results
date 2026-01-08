@@ -1,0 +1,548 @@
+{
+  "company_info": {
+    "name": "Amazon.com, Inc.",
+    "ticker": "AMZN",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-30",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 180169,
+      "unit": "millions",
+      "yoy_pct": 13.4,
+      "qoq_pct": 7.4
+    },
+    "cost_of_revenue": {
+      "value": 88670,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 91499,
+      "margin_pct": 50.8
+    },
+    "operating_expenses": {
+      "value": 162747,
+      "breakdown": {
+        "cost_of_sales": 88670,
+        "fulfillment": 27679,
+        "technology_and_infrastructure": 28962,
+        "sales_and_marketing": 11686,
+        "general_and_administrative": 2875,
+        "other_operating_expense": 2875
+      }
+    },
+    "operating_income": {
+      "value": 17422,
+      "margin_pct": 9.7
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 21187,
+      "margin_pct": 11.8,
+      "yoy_pct": 38.2
+    },
+    "eps": {
+      "basic": 1.98,
+      "diluted": 1.95,
+      "yoy_pct": 36.4
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 66922,
+    "short_term_investments": 27275,
+    "total_cash": 94197,
+    "accounts_receivable": 61175,
+    "inventory": 41494,
+    "total_assets": 727921,
+    "accounts_payable": 106032,
+    "short_term_debt": null,
+    "long_term_debt": 50742,
+    "total_debt": 50742,
+    "total_liabilities": 358290,
+    "shareholders_equity": 369631,
+    "net_cash_position": 43455
+  },
+  "cash_flow": {
+    "operating_cash_flow": 130691,
+    "investing_cash_flow": -132743,
+    "financing_cash_flow": -5938,
+    "capex": 115903,
+    "free_cash_flow": 14788,
+    "dividends_paid": null,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0,
+        "yoy_pct": 11.2
+      },
+      {
+        "name": "International",
+        "revenue": 40896,
+        "pct_of_total": 22.7,
+        "yoy_pct": 13.9
+      },
+      {
+        "name": "AWS",
+        "revenue": 33006,
+        "pct_of_total": 18.3,
+        "yoy_pct": 20.2
+      },
+      {
+        "name": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0,
+        "yoy_pct": 11.0
+      },
+      {
+        "name": "International",
+        "revenue": 40896,
+        "pct_of_total": 23.0,
+        "yoy_pct": 14.0
+      },
+      {
+        "name": "AWS",
+        "revenue": 33006,
+        "pct_of_total": 18.0,
+        "yoy_pct": 20.0
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0,
+        "yoy_pct": 11.2
+      },
+      {
+        "region": "International",
+        "revenue": 40896,
+        "pct_of_total": 22.7,
+        "yoy_pct": 13.9
+      },
+      {
+        "region": "North America",
+        "revenue": 106267,
+        "pct_of_total": 59.0,
+        "yoy_pct": 11.0
+      },
+      {
+        "region": "International",
+        "revenue": 40896,
+        "pct_of_total": 23.0,
+        "yoy_pct": 14.0
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Online stores",
+        "revenue": 67407,
+        "pct_of_total": 37.4
+      },
+      {
+        "product": "Third-party seller services",
+        "revenue": 42486,
+        "pct_of_total": 23.6
+      },
+      {
+        "product": "AWS",
+        "revenue": 33006,
+        "pct_of_total": 18.3
+      },
+      {
+        "product": "Advertising services",
+        "revenue": 17703,
+        "pct_of_total": 9.8
+      },
+      {
+        "product": "Subscription services",
+        "revenue": 12574,
+        "pct_of_total": 7.0
+      },
+      {
+        "product": "Physical stores",
+        "revenue": 5578,
+        "pct_of_total": 3.1
+      },
+      {
+        "product": "Other",
+        "revenue": 1415,
+        "pct_of_total": 0.8
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": 1578000,
+      "yoy_change": 1.7
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Rufus users",
+        "value": 250,
+        "unit": "million customers",
+        "yoy_pct": null
+      },
+      {
+        "name": "Paid units growth",
+        "value": 11,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Seller unit mix",
+        "value": 62,
+        "unit": "percent of paid units",
+        "yoy_pct": null
+      },
+      {
+        "name": "Shipping costs",
+        "value": 25384,
+        "unit": "millions",
+        "yoy_pct": 8.0
+      },
+      {
+        "name": "Stock-based compensation",
+        "value": 4847,
+        "unit": "millions",
+        "yoy_pct": -9.1
+      },
+      {
+        "name": "Free skill training participants (US employees since 2019)",
+        "value": 350000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Free skill training participants (US employees by 2023)",
+        "value": 350000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "AWS learners reached (since 2020)",
+        "value": 31000000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "AI Ready learners trained globally (since 2023)",
+        "value": 2000000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Amazon Future Engineer scholarships awarded (2024)",
+        "value": 400,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Natural disasters responded to (since 2017)",
+        "value": 185,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Relief items donated globally (since 2017)",
+        "value": 25000000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Disaster Relief Hubs established",
+        "value": 15,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "California wildfire relief items",
+        "value": 500000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Storm recovery items in Eastern Europe",
+        "value": 16000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Essential items for Spain flooding relief",
+        "value": 265000,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock price increase",
+        "value": 9807,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "20-year compound annual growth rate",
+        "value": 26,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "10-year stock increase",
+        "value": 1314,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "5-year stock increase",
+        "value": 137,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "CEO 2024 realized compensation increase",
+        "value": 37,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "CEO 2023 realized compensation decrease",
+        "value": 12,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Advisory vote support percentage",
+        "value": 78,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Carbon emissions reduction 2023",
+        "value": 3,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Carbon intensity decrease 2023",
+        "value": 13,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "CEO annual salary",
+        "value": 0.365,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Renewable energy projects",
+        "value": 600,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Data center power usage effectiveness",
+        "value": 1.15,
+        "unit": "ratio",
+        "yoy_pct": null
+      },
+      {
+        "name": "Best PUE rating",
+        "value": 1.04,
+        "unit": "ratio",
+        "yoy_pct": null
+      },
+      {
+        "name": "Planned data center investment",
+        "value": 150000,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "fulfillment_centers_audited",
+        "value": 331,
+        "unit": "sites",
+        "yoy_pct": null
+      },
+      {
+        "name": "safety_inspections_conducted",
+        "value": 7800000,
+        "unit": "inspections",
+        "yoy_pct": 24.0
+      },
+      {
+        "name": "dragonfly_users",
+        "value": 130000,
+        "unit": "employees",
+        "yoy_pct": null
+      },
+      {
+        "name": "automated_packing_machines_retrofitted",
+        "value": 120,
+        "unit": "machines",
+        "yoy_pct": null
+      },
+      {
+        "name": "plastic_bags_avoided",
+        "value": 130,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "orders_shipped_without_packaging",
+        "value": 12,
+        "unit": "percent_global",
+        "yoy_pct": null
+      },
+      {
+        "name": "climate_pledge_friendly_products",
+        "value": 1400000,
+        "unit": "products",
+        "yoy_pct": null
+      },
+      {
+        "name": "Worldwide Amazon Stores operations net sales 2021-2023",
+        "value": null,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Shares Outstanding",
+        "value": 10687,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock Awards Outstanding",
+        "value": 268.1,
+        "unit": "millions",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "gmv": null,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "third_party_sales_pct": 62,
+    "online_stores_revenue": 67407,
+    "third_party_seller_services": 42486,
+    "advertising_services": 17703,
+    "subscription_services": 12574,
+    "physical_stores": 5578,
+    "aws_revenue": 33006,
+    "aws_operating_margin": 34.6,
+    "prime_video_users": null,
+    "alexa_devices_sold": null,
+    "investment_in_us_economy": 1000000,
+    "jobs_supported": 5000000,
+    "housing_equity_fund_commitment": 3600,
+    "housing_equity_fund_loans_grants_committed": 2200,
+    "affordable_homes_created_preserved": 21000,
+    "residents_supported": 46000,
+    "affordable_homes_target": 35000,
+    "aws_health_equity_support": 60,
+    "california_wildfire_donations": 10,
+    "amazon_future_engineer_scholarships_value": 16,
+    "bezos_earth_fund_commitment": 10000,
+    "bezos_day_one_fund_commitment": 2000,
+    "climate_pledge_fund_commitment": 2000,
+    "right_now_climate_fund": 100,
+    "electric_delivery_vans_target": 100000,
+    "electric_delivery_vans_current": 20000,
+    "packaging_weight_reduction_pct": 43,
+    "packaging_material_avoided": 3000000,
+    "safety_investments": 2000,
+    "front_line_pay_benefits_investment_2024": 2200,
+    "upskilling_investment_commitment": 1200,
+    "upskilling_participants": 350000,
+    "veterans_military_spouses_hiring_goal": 100000,
+    "private_label_sales_pct": 1,
+    "packaging_weight_reduction_2023": 9.0,
+    "packaging_weight_reduction_2022": 17.0,
+    "plastic_packaging_avoided_since_2020": 80500,
+    "packaging_weight_reduction_since_2015": 43.0,
+    "plastic_packaging_material_avoided_since_2015": 3000000,
+    "north_america_plastic_delivery_packaging_dec_2023": 66.7,
+    "north_america_plastic_delivery_packaging_dec_2024": 33.3,
+    "us_canada_shipments_without_packaging_2023": 13.0,
+    "europe_shipments_without_packaging_2023": 9.0,
+    "amazon_fresh_grocery_packaging_recyclable_weight_pct": 88.0,
+    "device_packaging_wood_fiber_based_pct": 98.0,
+    "new_devices_100pct_recyclable_packaging_2023": 90.0,
+    "shipments_in_product_packaging_global": 12.0,
+    "outstanding_shares": 10612363997,
+    "closing_stock_price_dec_31_2024": 219.39,
+    "total_shareholder_return_2024": 237,
+    "nyse_tech_index_return_2024": 247,
+    "sp_retail_index_return_2024": 218,
+    "digital_content_costs": 21500,
+    "prime_related_revenue": 12574,
+    "online_stores": 67407
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": 206000,
+      "revenue_high": 213000,
+      "revenue_midpoint": 209500,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Operating income",
+          "low": 21000,
+          "high": 26000
+        },
+        {
+          "metric": "Revenue growth",
+          "low": 10,
+          "high": 13
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 115903,
+    "capex_guidance": null,
+    "dividends_per_share": null,
+    "buyback_authorization": 10000,
+    "buyback_remaining": 6100,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Comprehensive financial data extracted from Q3 2025 earnings release with detailed segment breakdowns, cash flow statements, and balance sheet information. Operating income includes special charges of $4.3B ($2.5B FTC settlement + $1.8B severance costs). Net income benefited from $9.5B pre-tax gains from Anthropic investments."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Amazon"
+}

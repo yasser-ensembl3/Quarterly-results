@@ -1,0 +1,567 @@
+{
+  "company_info": {
+    "name": "Coinbase Global, Inc.",
+    "ticker": "COIN",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-30",
+    "currency": "USD",
+    "company_type": "crypto"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 1793.0,
+      "unit": "millions",
+      "yoy_pct": 58.9,
+      "qoq_pct": 26.3
+    },
+    "cost_of_revenue": {
+      "value": null,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": null,
+      "margin_pct": null
+    },
+    "operating_expenses": {
+      "value": 1388.2,
+      "breakdown": {
+        "transaction_expense": 253.3,
+        "technology_and_development": 430.6,
+        "sales_and_marketing": 260.3,
+        "general_and_administrative": 418.4,
+        "gains_on_crypto_operations": -35.7,
+        "other_operating": 61.3
+      }
+    },
+    "operating_income": {
+      "value": 480.5,
+      "margin_pct": 26.8
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": 801.0
+    },
+    "net_income": {
+      "value": 432.6,
+      "margin_pct": 24.1,
+      "yoy_pct": 473.0
+    },
+    "eps": {
+      "basic": 1.65,
+      "diluted": 1.5,
+      "yoy_pct": 450.0
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 8676.3,
+    "short_term_investments": 1093.4,
+    "total_cash": 11893.0,
+    "accounts_receivable": 308.4,
+    "inventory": null,
+    "total_assets": 31351.4,
+    "accounts_payable": 85.9,
+    "short_term_debt": 1268.1,
+    "long_term_debt": 5933.4,
+    "total_debt": 7201.5,
+    "total_liabilities": 15328.1,
+    "shareholders_equity": 16023.2,
+    "net_cash_position": 4691.5
+  },
+  "cash_flow": {
+    "operating_cash_flow": -638.8,
+    "investing_cash_flow": -1652.4,
+    "financing_cash_flow": 1896.1,
+    "capex": null,
+    "free_cash_flow": null,
+    "dividends_paid": null,
+    "share_repurchases": 0.0
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Transaction Revenue",
+        "revenue": 1046.3,
+        "pct_of_total": 58.4,
+        "yoy_pct": 82.8
+      },
+      {
+        "name": "Subscription and Services Revenue",
+        "revenue": 746.7,
+        "pct_of_total": 41.6,
+        "yoy_pct": 34.3
+      },
+      {
+        "name": "Consumer Transaction Revenue",
+        "revenue": 844,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Institutional Transaction Revenue",
+        "revenue": 135,
+        "pct_of_total": null,
+        "yoy_pct": 122.0
+      },
+      {
+        "name": "Subscription and Services Revenue",
+        "revenue": 747,
+        "pct_of_total": null,
+        "yoy_pct": 14.0
+      },
+      {
+        "name": "Transaction Revenue",
+        "revenue": 1046.3,
+        "pct_of_total": 56.0,
+        "yoy_pct": 82.7
+      },
+      {
+        "name": "Subscription and Services",
+        "revenue": 746.7,
+        "pct_of_total": 40.0,
+        "yoy_pct": 34.3
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 75.7,
+        "pct_of_total": 4.0,
+        "yoy_pct": -1.2
+      },
+      {
+        "name": "Transaction Revenue",
+        "revenue": 1003.9,
+        "pct_of_total": 56.4,
+        "yoy_pct": 75.3
+      },
+      {
+        "name": "Subscription and Services",
+        "revenue": 776.1,
+        "pct_of_total": 43.6,
+        "yoy_pct": 39.5
+      },
+      {
+        "name": "Transaction Revenue",
+        "revenue": 1046.3,
+        "pct_of_total": 58.0,
+        "yoy_pct": 82.8
+      },
+      {
+        "name": "Subscription and Services Revenue",
+        "revenue": 746.7,
+        "pct_of_total": 42.0,
+        "yoy_pct": 34.3
+      },
+      {
+        "name": "Other Revenue",
+        "revenue": 75.7,
+        "pct_of_total": null,
+        "yoy_pct": -1.2
+      },
+      {
+        "name": "Historical Net Revenue 2021",
+        "revenue": 7400.0,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Historical Net Revenue 2022",
+        "revenue": 3100.0,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Historical Net Revenue 2023",
+        "revenue": 2900.0,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Historical Net Revenue 2024",
+        "revenue": 6300.0,
+        "pct_of_total": null,
+        "yoy_pct": null
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "U.S.",
+        "revenue": 1518.8,
+        "pct_of_total": 81.3,
+        "yoy_pct": 46.4
+      },
+      {
+        "region": "International",
+        "revenue": 349.9,
+        "pct_of_total": 18.7,
+        "yoy_pct": 108.9
+      },
+      {
+        "region": "United States",
+        "revenue": 1513.6,
+        "pct_of_total": 81.0,
+        "yoy_pct": null
+      },
+      {
+        "region": "International",
+        "revenue": 355.1,
+        "pct_of_total": 19.0,
+        "yoy_pct": null
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Consumer Transaction",
+        "revenue": 843.5,
+        "pct_of_total": 47.0
+      },
+      {
+        "product": "Institutional Transaction",
+        "revenue": 135.0,
+        "pct_of_total": 7.5
+      },
+      {
+        "product": "Other Transaction",
+        "revenue": 67.7,
+        "pct_of_total": 3.8
+      },
+      {
+        "product": "Stablecoin Revenue",
+        "revenue": 354.7,
+        "pct_of_total": 19.8
+      },
+      {
+        "product": "Blockchain Rewards",
+        "revenue": 184.6,
+        "pct_of_total": 10.3
+      },
+      {
+        "product": "Interest and Finance Fee",
+        "revenue": 64.8,
+        "pct_of_total": 3.6
+      },
+      {
+        "product": "Other Subscription Services",
+        "revenue": 142.7,
+        "pct_of_total": 8.0
+      },
+      {
+        "product": "Consumer Spot Trading",
+        "revenue": 844,
+        "pct_of_total": null
+      },
+      {
+        "product": "Institutional",
+        "revenue": 135,
+        "pct_of_total": null
+      },
+      {
+        "product": "Subscription & Services",
+        "revenue": 747,
+        "pct_of_total": null
+      },
+      {
+        "product": "Consumer Transaction",
+        "revenue": 843.5,
+        "pct_of_total": 45.1
+      },
+      {
+        "product": "Stablecoin Revenue",
+        "revenue": 354.7,
+        "pct_of_total": 19.0
+      },
+      {
+        "product": "Blockchain Rewards",
+        "revenue": 184.6,
+        "pct_of_total": 9.9
+      },
+      {
+        "product": "Institutional Transaction",
+        "revenue": 135.0,
+        "pct_of_total": 7.2
+      },
+      {
+        "product": "Transaction Revenue - Consumer",
+        "revenue": 808.6,
+        "pct_of_total": null
+      },
+      {
+        "product": "Transaction Revenue - Institutional",
+        "revenue": 195.3,
+        "pct_of_total": null
+      },
+      {
+        "product": "Interest Income",
+        "revenue": 282.7,
+        "pct_of_total": null
+      },
+      {
+        "product": "Stablecoins",
+        "revenue": 247.1,
+        "pct_of_total": null
+      },
+      {
+        "product": "Custody Revenue",
+        "revenue": 64.8,
+        "pct_of_total": null
+      },
+      {
+        "product": "Blockchain Rewards",
+        "revenue": 124.1,
+        "pct_of_total": null
+      },
+      {
+        "product": "Other Subscription and Services",
+        "revenue": 57.4,
+        "pct_of_total": null
+      },
+      {
+        "product": "Consumer Transaction",
+        "revenue": 843.5,
+        "pct_of_total": null
+      },
+      {
+        "product": "Institutional Transaction",
+        "revenue": 135.0,
+        "pct_of_total": null
+      },
+      {
+        "product": "Stablecoin Revenue",
+        "revenue": 354.7,
+        "pct_of_total": null
+      },
+      {
+        "product": "Blockchain Rewards",
+        "revenue": 184.6,
+        "pct_of_total": null
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": 4795,
+      "yoy_change": 30.6
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Weighted Average Shares Outstanding (diluted)",
+        "value": 292.0,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock-based Compensation",
+        "value": 222.1,
+        "unit": "millions",
+        "yoy_pct": -10.6
+      },
+      {
+        "name": "Weighted Average Shares Basic",
+        "value": 262.831,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted Average Shares Diluted",
+        "value": 291.958,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Goodwill",
+        "value": 4004.1,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted Average Shares Outstanding Basic",
+        "value": 262.8,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Stock-based Compensation",
+        "value": 222.1,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Monthly Transacting Users (MTU)",
+        "value": null,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Outages in 2024",
+        "value": 14.0,
+        "unit": "count",
+        "yoy_pct": null
+      },
+      {
+        "name": "Average Outage Duration 2024",
+        "value": 58.6,
+        "unit": "minutes",
+        "yoy_pct": null
+      },
+      {
+        "name": "Hot Wallet Asset Percentage Target",
+        "value": 2.0,
+        "unit": "percent",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "trading_volume": 295.0,
+    "consumer_trading_volume": 59.0,
+    "institutional_trading_volume": 236.0,
+    "assets_on_platform": 516000.0,
+    "assets_under_custody": 300000.0,
+    "usdc_market_cap": 74000.0,
+    "average_usdc_in_coinbase_products": 15000.0,
+    "average_off_platform_usdc": 53000.0,
+    "transaction_revenue": 1046.3,
+    "subscription_revenue": 746.7,
+    "crypto_assets_held_for_investment": 2597.3,
+    "crypto_assets_held_as_collateral": 1017.4,
+    "loan_receivables": 859.1,
+    "average_loan_balances": 1200.0,
+    "total_credit_counterparty_risk": 1100.0,
+    "collateralized_loans": 916.0,
+    "third_party_venues_held": 217.0,
+    "october_transaction_revenue": 385.0,
+    "usdc_balances": 15000,
+    "cash_paid_income_taxes": 147.999,
+    "restricted_cash": 78.867,
+    "customer_custodial_cash": 5550.113,
+    "crypto_investments": 2600,
+    "non_cash_business_combinations": 3573.092,
+    "crypto_assets_borrowed": 2326.401,
+    "crypto_assets_repaid": 2238.233,
+    "crypto_collateral_received": 1988.879,
+    "crypto_collateral_returned": 1789.861,
+    "crypto_loan_receivables_originated": 1853.095,
+    "crypto_loan_receivables_repaid": 1899.592,
+    "crypto_investment_additions": 176.645,
+    "stablecoin_revenue": 354.7,
+    "blockchain_rewards": 184.6,
+    "consumer_transaction_revenue": 843.5,
+    "institutional_transaction_revenue": 135.0,
+    "usdc_holdings": 3696.4,
+    "crypto_assets_held_for_operations": 161.1,
+    "customer_custodial_funds": 5672.0,
+    "custodial_assets": 515900,
+    "crypto_assets_held_operations": 161.1,
+    "crypto_assets_held_investment": 2597.3,
+    "mtus": 9.3,
+    "derivative_assets": 62.6,
+    "derivative_liabilities": 309.1,
+    "usdc_stablecoin_revenue": 247.1,
+    "blockchain_rewards_revenue": 124.1,
+    "custody_revenue": 64.8,
+    "trading_volume_q3": 295.0,
+    "trading_volume_9m": 925.0,
+    "trading_volume_consumer_q3": 59.0,
+    "trading_volume_institutional_q3": 236.0,
+    "bitcoin_aop": 331888.9,
+    "ethereum_aop": 77429.7,
+    "xrp_aop": 25833.0,
+    "solana_aop": 22757.4,
+    "usdc_aop": 9012.9,
+    "stablecoin_revenue_q3": 354.7,
+    "stablecoin_revenue_9m": 984.7,
+    "blockchain_rewards_q3": 184.6,
+    "blockchain_rewards_9m": 525.8,
+    "crypto_assets_held_collateral": 1000.0,
+    "bitcoin_ethereum_trading_pct": 42.0,
+    "bitcoin_ethereum_trading_pct_2024": 44.0,
+    "trading_pairs_concentration": {
+      "bitcoin_ethereum_9m_2025": 42.0,
+      "bitcoin_ethereum_fy_2024": 44.0
+    },
+    "debt_breakdown": {
+      "senior_notes": 1740.0,
+      "2026_convertible_notes": 1270.0,
+      "2029_convertible_notes": 1500.0,
+      "2030_convertible_notes": 1270.0,
+      "2032_convertible_notes": 1500.0
+    },
+    "hot_wallet_percentage": 2.0,
+    "bitcoin_losses_mt_gox": 700000.0,
+    "binance_hack_losses": 40.0,
+    "convertible_notes": {
+      "2026_notes": true,
+      "2029_notes": true,
+      "2030_notes": true,
+      "2032_notes": true
+    },
+    "acquisition": {
+      "deribit_shares_issued": 10.997856
+    }
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Subscription and Services Revenue",
+          "low": 710.0,
+          "high": 790.0
+        },
+        {
+          "metric": "Technology & Development + General & Administrative Expenses",
+          "low": 925.0,
+          "high": 975.0
+        },
+        {
+          "metric": "Sales and Marketing Expenses",
+          "low": 215.0,
+          "high": 315.0
+        },
+        {
+          "metric": "Transaction Expenses as % of net revenue",
+          "low": null,
+          "high": null
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": null,
+    "capex_guidance": null,
+    "dividends_per_share": null,
+    "buyback_authorization": 2000.0,
+    "buyback_remaining": 2000,
+    "shares_repurchased": 0
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Comprehensive crypto exchange data with detailed revenue breakdowns, trading volumes, and crypto-specific metrics. Q4 guidance provided for key expense categories and subscription revenue."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Coinbase"
+}

@@ -1,0 +1,383 @@
+{
+  "company_info": {
+    "name": "FIGS, Inc.",
+    "ticker": "FIGS",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-09-30",
+    "currency": "USD",
+    "company_type": "retail"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 151.661,
+      "unit": "millions",
+      "yoy_pct": 8.2,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": 45.593,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 106.068,
+      "margin_pct": 69.9
+    },
+    "operating_expenses": {
+      "value": 96.433,
+      "breakdown": {
+        "selling": 35.841,
+        "marketing": 23.472,
+        "general_administrative": 37.12
+      }
+    },
+    "operating_income": {
+      "value": 9.635,
+      "margin_pct": 6.4
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 8.746,
+      "margin_pct": 5.8,
+      "yoy_pct": null
+    },
+    "eps": {
+      "basic": 0.05,
+      "diluted": 0.05,
+      "yoy_pct": null
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 46.454,
+    "short_term_investments": 195.072,
+    "total_cash": 241.526,
+    "accounts_receivable": 12.218,
+    "inventory": 151.233,
+    "total_assets": 544.738,
+    "accounts_payable": 5.345,
+    "short_term_debt": null,
+    "long_term_debt": null,
+    "total_debt": null,
+    "total_liabilities": 131.409,
+    "shareholders_equity": 413.329,
+    "net_cash_position": 241.526
+  },
+  "cash_flow": {
+    "operating_cash_flow": 0.242,
+    "investing_cash_flow": -38.063,
+    "financing_cash_flow": -1.37,
+    "capex": 5.305,
+    "free_cash_flow": -5.063,
+    "dividends_paid": null,
+    "share_repurchases": 2.688
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "Single Segment",
+        "revenue": 151.661,
+        "pct_of_total": 100.0,
+        "yoy_pct": 8.2
+      },
+      {
+        "name": "Scrubwear",
+        "revenue": 127.4,
+        "pct_of_total": 84.0,
+        "yoy_pct": 8.0
+      },
+      {
+        "name": "Non-scrubwear",
+        "revenue": 24.3,
+        "pct_of_total": 16.0,
+        "yoy_pct": 7.0
+      },
+      {
+        "name": "Scrubwear",
+        "revenue": 127.0,
+        "pct_of_total": 84,
+        "yoy_pct": 8.4
+      },
+      {
+        "name": "Non-Scrubwear",
+        "revenue": 24.6,
+        "pct_of_total": 16,
+        "yoy_pct": 7.2
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "United States",
+        "revenue": 127.343,
+        "pct_of_total": 84.0,
+        "yoy_pct": 7.5
+      },
+      {
+        "region": "Rest of the world",
+        "revenue": 24.318,
+        "pct_of_total": 16.0,
+        "yoy_pct": 11.7
+      },
+      {
+        "region": "United States (Primary)",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": null
+      },
+      {
+        "region": "US",
+        "revenue": 127.3,
+        "pct_of_total": 84.0,
+        "yoy_pct": 8.0
+      },
+      {
+        "region": "International",
+        "revenue": 24.4,
+        "pct_of_total": 16.0,
+        "yoy_pct": 12.0
+      },
+      {
+        "region": "U.S.",
+        "revenue": 127.3,
+        "pct_of_total": 84,
+        "yoy_pct": 7.5
+      },
+      {
+        "region": "International",
+        "revenue": 24.3,
+        "pct_of_total": 16,
+        "yoy_pct": 11.7
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Scrubwear",
+        "revenue": 127.015,
+        "pct_of_total": 83.8
+      },
+      {
+        "product": "Non-Scrubwear",
+        "revenue": 24.646,
+        "pct_of_total": 16.2
+      },
+      {
+        "product": "Healthcare Apparel and Lifestyle Products",
+        "revenue": 151.661,
+        "pct_of_total": 100.0
+      },
+      {
+        "product": "Scrubwear",
+        "revenue": 127.015,
+        "pct_of_total": 83.7,
+        "yoy_pct": 8.4
+      },
+      {
+        "product": "Non-Scrubwear",
+        "revenue": 24.646,
+        "pct_of_total": 16.3,
+        "yoy_pct": 7.2
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Net Revenues per Active Customer",
+        "value": 209,
+        "unit": "dollars",
+        "yoy_pct": 1.95
+      },
+      {
+        "name": "Average Order Value (Q3)",
+        "value": 114,
+        "unit": "dollars",
+        "yoy_pct": 5.56
+      },
+      {
+        "name": "Average Order Value (9M)",
+        "value": 117,
+        "unit": "dollars",
+        "yoy_pct": 4.46
+      },
+      {
+        "name": "Adjusted EBITDA Margin (Q3)",
+        "value": 12.4,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Adjusted EBITDA Margin (9M)",
+        "value": 11.1,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Vietnam production percentage",
+        "value": 50,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Jordan production percentage",
+        "value": 50,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Average Order Value",
+        "value": 114,
+        "unit": "dollars",
+        "yoy_pct": 6.0
+      },
+      {
+        "name": "Net Revenue per Active Customer TTM",
+        "value": 209,
+        "unit": "dollars",
+        "yoy_pct": 2.0
+      },
+      {
+        "name": "Active Customer Growth",
+        "value": 4.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Inventory Growth",
+        "value": 23.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Inventory Unit Growth",
+        "value": 20.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Active Customers",
+        "value": 2.8,
+        "unit": "millions",
+        "yoy_pct": 4.0
+      },
+      {
+        "name": "Average Order Value",
+        "value": 114,
+        "unit": "USD",
+        "yoy_pct": 5.6
+      },
+      {
+        "name": "Net Revenues Per Active Customer",
+        "value": 209,
+        "unit": "USD",
+        "yoy_pct": 2.0
+      },
+      {
+        "name": "Net revenues per active customer",
+        "value": 209,
+        "unit": "dollars",
+        "yoy_pct": null
+      },
+      {
+        "name": "Average order value Q3",
+        "value": 114,
+        "unit": "dollars",
+        "yoy_pct": null
+      },
+      {
+        "name": "Average order value 9M",
+        "value": 117,
+        "unit": "dollars",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "store_count": 5,
+    "same_store_sales": null,
+    "revenue_per_sqft": null,
+    "inventory_turnover": null,
+    "returns_reserve": 3.217,
+    "gift_card_liability": 10.018,
+    "active_customers": 2781000,
+    "active_customers_yoy_growth": 4.0,
+    "average_order_value_q3": 114,
+    "average_order_value_9m": 117,
+    "net_revenue_per_active_customer": 209,
+    "gross_margin_q3": 69.9,
+    "gross_margin_9m": 68.2,
+    "dtc_platform_revenue": 151.661,
+    "nine_month_revenue": 429.202,
+    "nine_month_net_income": 15.743,
+    "nine_month_adjusted_ebitda": 47.752,
+    "vietnam_tariff_rate": 20.0,
+    "jordan_tariff_rate": 15.0,
+    "universal_baseline_tariff": 10.0,
+    "net_operating_loss_carryforwards": {
+      "federal": 1.1,
+      "state": 1.1,
+      "unit": "millions"
+    },
+    "gross_margin_bps_improvement": 280,
+    "countries_served": 60,
+    "community_hubs": 5,
+    "return_rate_improvement": true,
+    "gross_margin": 69.9,
+    "adjusted_ebitda_margin": 12.4,
+    "revenue_per_active_customer": 209,
+    "scrubwear_revenue": 127.015,
+    "non_scrubwear_revenue": 24.646,
+    "us_revenue": 127.343,
+    "international_revenue": 24.318
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 5.305,
+    "capex_guidance": "approximately $7 million for full year",
+    "dividends_per_share": null,
+    "buyback_authorization": 100.0,
+    "buyback_remaining": 52.0,
+    "shares_repurchased": 567607
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "data_completeness": "high",
+    "notes": "Complete quarterly financial data extracted. Nine-month figures also available: Revenue 429.202M, Net Income 15.743M, Operating Cash Flow 0.242M. Company operates in healthcare apparel market with direct-to-consumer model."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "FIGS"
+}

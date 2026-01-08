@@ -1,0 +1,458 @@
+{
+  "company_info": {
+    "name": "Wayfair Inc.",
+    "ticker": "W",
+    "quarter": "Q3",
+    "year": 2025,
+    "report_date": "2025-10-28",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 3134,
+      "unit": "millions",
+      "yoy_pct": 8.0,
+      "qoq_pct": null
+    },
+    "cost_of_revenue": {
+      "value": 2188,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 946,
+      "margin_pct": 30.1
+    },
+    "operating_expenses": {
+      "value": 738,
+      "breakdown": {
+        "customer_service_and_merchant_fees": 116,
+        "advertising": 332,
+        "selling_operations_technology_ga": 360,
+        "other_depreciation_amortization": 70
+      }
+    },
+    "operating_income": {
+      "value": 208,
+      "margin_pct": 6.6
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": 208
+    },
+    "net_income": {
+      "value": 131,
+      "margin_pct": 4.2,
+      "yoy_pct": null
+    },
+    "eps": {
+      "basic": 1.24,
+      "diluted": 1.18,
+      "yoy_pct": null
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 1171,
+    "short_term_investments": 54,
+    "total_cash": 1225,
+    "accounts_receivable": 129,
+    "inventory": 70,
+    "total_assets": 3116,
+    "accounts_payable": 1199,
+    "short_term_debt": 196,
+    "long_term_debt": 2748,
+    "total_debt": 2944,
+    "total_liabilities": 5884,
+    "shareholders_equity": -2768,
+    "net_cash_position": -1773
+  },
+  "cash_flow": {
+    "operating_cash_flow": 155,
+    "investing_cash_flow": -150,
+    "financing_cash_flow": -303,
+    "capex": 62,
+    "free_cash_flow": 93,
+    "dividends_paid": null,
+    "share_repurchases": 0
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "US",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": 9.0
+      },
+      {
+        "name": "International",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": 5.0
+      },
+      {
+        "name": "U.S.",
+        "revenue": 2870,
+        "pct_of_total": 92.1,
+        "yoy_pct": 8.7
+      },
+      {
+        "name": "International",
+        "revenue": 247,
+        "pct_of_total": 7.9,
+        "yoy_pct": 2.5
+      },
+      {
+        "name": "US",
+        "revenue": 2728,
+        "pct_of_total": 87.5,
+        "yoy_pct": 8.6
+      },
+      {
+        "name": "International",
+        "revenue": 389,
+        "pct_of_total": 12.5,
+        "yoy_pct": 4.6
+      },
+      {
+        "name": "U.S.",
+        "revenue": 2728,
+        "pct_of_total": 87.5,
+        "yoy_pct": 8.6
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "US",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": 9.0
+      },
+      {
+        "region": "International",
+        "revenue": null,
+        "pct_of_total": null,
+        "yoy_pct": 5.0
+      },
+      {
+        "region": "U.S.",
+        "revenue": 2870,
+        "pct_of_total": 92.1,
+        "yoy_pct": 8.7
+      },
+      {
+        "region": "International",
+        "revenue": 247,
+        "pct_of_total": 7.9,
+        "yoy_pct": 2.5
+      },
+      {
+        "region": "U.S.",
+        "revenue": 2728,
+        "pct_of_total": 87.5,
+        "yoy_pct": 8.6
+      },
+      {
+        "region": "International",
+        "revenue": 389,
+        "pct_of_total": 12.5,
+        "yoy_pct": 4.6
+      },
+      {
+        "region": "United States",
+        "revenue": 2728,
+        "pct_of_total": 87.5,
+        "yoy_pct": 8.6
+      }
+    ],
+    "by_product": []
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": null,
+      "yoy_change": null
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Orders Growth",
+        "value": 5.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "New Orders Growth",
+        "value": null,
+        "unit": "percent",
+        "yoy_pct": "mid-single digits"
+      },
+      {
+        "name": "CastleGate Penetration",
+        "value": 25.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Mobile App Revenue Growth",
+        "value": null,
+        "unit": "percent",
+        "yoy_pct": "double digits"
+      },
+      {
+        "name": "Mobile App Installs Growth",
+        "value": 40.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Technology Team Size",
+        "value": 2500,
+        "unit": "people",
+        "yoy_pct": null
+      },
+      {
+        "name": "Weighted-average shares outstanding (basic)",
+        "value": 130,
+        "unit": "millions",
+        "yoy_pct": 5.7
+      },
+      {
+        "name": "Contract liabilities",
+        "value": 236,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "LTM_revenue_per_active_customer",
+        "value": 578,
+        "unit": "dollars",
+        "yoy_pct": 6.1
+      },
+      {
+        "name": "Orders_delivered",
+        "value": 10,
+        "unit": "millions",
+        "yoy_pct": 11.1
+      },
+      {
+        "name": "Average_order_value",
+        "value": 317,
+        "unit": "dollars",
+        "yoy_pct": 2.3
+      },
+      {
+        "name": "Repeat_buyer_percentage",
+        "value": 80.1,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "LTM net revenue per active customer",
+        "value": 578,
+        "unit": "USD",
+        "yoy_pct": 6.1
+      },
+      {
+        "name": "Orders per customer",
+        "value": 1.87,
+        "unit": "ratio",
+        "yoy_pct": null
+      },
+      {
+        "name": "Repeat customer order percentage",
+        "value": 80.1,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "Mobile order percentage",
+        "value": 63.0,
+        "unit": "percent",
+        "yoy_pct": null
+      },
+      {
+        "name": "LTM net revenue per active customer",
+        "value": 578,
+        "unit": "dollars",
+        "yoy_pct": 6.1
+      },
+      {
+        "name": "Orders delivered",
+        "value": 10,
+        "unit": "millions",
+        "yoy_pct": 11.1
+      },
+      {
+        "name": "Average order value",
+        "value": 317,
+        "unit": "dollars",
+        "yoy_pct": 2.3
+      }
+    ]
+  },
+  "sector_specific": {
+    "orders": {
+      "growth_yoy_pct": 5.0
+    },
+    "aov": {
+      "growth_yoy_pct": 2.0
+    },
+    "active_customers": {
+      "sequential_growth": "positive for first time since 2023"
+    },
+    "contribution_margin": {
+      "value": 15.8,
+      "unit": "percent",
+      "yoy_change": 150
+    },
+    "advertising_as_pct_revenue": {
+      "value": 10.6,
+      "unit": "percent"
+    },
+    "gross_margin": {
+      "value": 30.1,
+      "unit": "percent"
+    },
+    "customer_service_merchant_fees": {
+      "value": 3.7,
+      "unit": "percent of revenue"
+    },
+    "nine_months_revenue": 9120,
+    "nine_months_net_loss": -197,
+    "nine_months_operating_loss": -67,
+    "nine_months_gross_profit": 2755,
+    "site_and_software_development_costs": 103,
+    "equity_based_compensation": 252,
+    "interest_expense": 83,
+    "loss_on_debt_extinguishment": 68,
+    "ltm_revenue_per_customer": 578,
+    "repeat_buyer_percentage": 80.1,
+    "suppliers": 20000,
+    "products": 30000000,
+    "nine_month_revenue": 9120,
+    "nine_month_net_loss": -197,
+    "nine_month_operating_cash_flow": 332,
+    "nine_month_free_cash_flow": 184,
+    "nine_month_adjusted_ebitda": 519,
+    "orders_delivered": 9.8,
+    "orders_delivered_yoy": 5.4,
+    "repeat_customer_orders": 7.9,
+    "repeat_customer_orders_yoy": 6.8,
+    "active_customers_yoy": -2.3,
+    "ltm_revenue_per_active_customer": 578,
+    "ltm_revenue_per_active_customer_yoy": 6.1,
+    "orders_delivered_9m": 29,
+    "aov_9m": 315,
+    "annual_net_revenue": 12200
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "revenue_midpoint": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Revenue Growth YoY",
+          "low": null,
+          "high": null,
+          "guidance": "mid-single digits"
+        },
+        {
+          "metric": "Gross Margin",
+          "low": 30.0,
+          "high": 31.0,
+          "guidance": "likely at low end"
+        },
+        {
+          "metric": "Customer Service & Merchant Fees",
+          "low": null,
+          "high": 4.0,
+          "guidance": "just below 4%"
+        },
+        {
+          "metric": "Advertising",
+          "low": 11.0,
+          "high": 12.0,
+          "guidance": "11% to 12% range"
+        },
+        {
+          "metric": "SOTGA",
+          "low": 360.0,
+          "high": 370.0,
+          "guidance": "likely at top end"
+        },
+        {
+          "metric": "Adjusted EBITDA Margin",
+          "low": 5.5,
+          "high": 6.5,
+          "guidance": "5.5% to 6.5% range"
+        },
+        {
+          "metric": "Equity-based Compensation",
+          "low": 80.0,
+          "high": 100.0,
+          "guidance": "$80-100M"
+        },
+        {
+          "metric": "Depreciation & Amortization",
+          "low": 71.0,
+          "high": 77.0,
+          "guidance": "$71-77M"
+        },
+        {
+          "metric": "Net Interest Expense",
+          "low": null,
+          "high": null,
+          "guidance": "~$30M"
+        },
+        {
+          "metric": "Weighted Average Shares",
+          "low": null,
+          "high": null,
+          "guidance": "~130M"
+        },
+        {
+          "metric": "CapEx",
+          "low": 55.0,
+          "high": 55.0,
+          "guidance": "$55M range"
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": []
+    }
+  },
+  "capital_allocation": {
+    "capex": 62,
+    "capex_guidance": "$55M range for Q4",
+    "dividends_per_share": null,
+    "buyback_authorization": 1700,
+    "buyback_remaining": 1088,
+    "shares_repurchased": 0
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "data_completeness": "high",
+    "notes": "Strong financial data available from earnings call transcript. Some balance sheet details incomplete as only partial 10-Q available. Germany exit impact noted as ~100 basis points drag on revenue growth."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-sonnet-4-20250514",
+  "_source_file": "Wayfair"
+}
