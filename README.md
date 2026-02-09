@@ -1,215 +1,89 @@
 # Quarterly Financials
 
-A full-stack application for comparing quarterly financial results from e-commerce, crypto, and fintech companies. Includes a Python CLI for data extraction and a modern Next.js web dashboard.
+Analyze and compare quarterly financial results from e-commerce, crypto, and fintech companies. Uses Claude Code for AI-powered extraction and validation, with Python scripts for PDF conversion and Google Drive sync.
 
-## Features
+## Workflow
 
-- **Google Drive Sync**: Automatically download quarterly reports from Google Drive
-- **Multi-format Extraction**: Extract financial data from PDF, Markdown, and image files
-- **AI-Powered Analysis**: Uses OpenAI + Claude to extract and validate structured financial metrics
-- **Web Dashboard**: Modern Next.js interface for visualizing and comparing data
-- **Company Comparison**: Compare metrics across multiple companies and quarters
-- **Data Export**: Export data to CSV or JSON formats
-- **SQLite Storage**: Persistent local database for financial data
+```
+0. python scripts/00_download_from_drive.py --quarter Q4  # Drive -> data/raw/
+1. python scripts/01_convert_pdfs.py --quarter Q4          # PDF -> Markdown
+2. Claude Code: read data/markdown/Q4/, use prompts/       # Extract, validate, format
+3. python scripts/05_upload_to_drive.py --quarter Q4       # Upload to Drive
+```
 
-## Supported Company Types
+### Step 0: Download PDFs from Google Drive
+```bash
+python scripts/00_download_from_drive.py --quarter Q4                # All companies
+python scripts/00_download_from_drive.py --quarter Q4 --company Amazon  # Single company
+python scripts/00_download_from_drive.py --quarter Q4 --force        # Re-download all
+```
+Downloads PDF earnings reports from `Drive/<quarter>/<company>/` into `data/raw/<quarter>/<company>/`. Skips files that already exist locally.
 
-- **Crypto**: Coinbase, Circle (trading volume, assets on platform, stablecoin metrics)
-- **E-commerce**: Amazon, Shopify, Etsy, eBay, Wayfair (GMV, orders, AWS/advertising revenue)
-- **Tech**: NVIDIA, Constellation Software (AI revenue, data center metrics)
-- **Retail**: LVMH, YETI, FIGS (segment breakdown, international sales)
-- **Fintech**: Circle (stablecoin metrics, reserve income)
+### Step 1: Convert PDFs to Markdown
+```bash
+python scripts/01_convert_pdfs.py --quarter Q4
+```
+Converts PDF earnings reports in `data/raw/<quarter>/` to Markdown files in `data/markdown/<quarter>/`. Uses LlamaParse (with pdfplumber fallback).
+
+### Step 2: Extract & Analyze (Claude Code)
+Use Claude Code to read the markdown files and apply the prompts in `prompts/`:
+
+1. **`prompts/financial_extraction.md`** - Extract financial data (income statement, balance sheet, cash flow, KPIs)
+2. **`prompts/strategic_extraction.md`** - Extract strategic insights (initiatives, risks, competitive position)
+3. **`prompts/validation.md`** - Validate and cross-check extracted data
+4. **`prompts/normalization.md`** - Normalize data into comparable format across companies
+5. **`prompts/report_formatting.md`** - Format into professional Markdown reports
+
+Output per company: `{company}_financial.json`, `{company}_strategic.json`, `{company}_financial.md`, `{company}_strategic.md` in `data/insights/<quarter>/<company>/`.
+
+### Step 3: Upload to Google Drive
+```bash
+python scripts/05_upload_to_drive.py --quarter Q4                    # All companies
+python scripts/05_upload_to_drive.py --quarter Q4 --company Amazon   # Single company
+python scripts/05_upload_to_drive.py --quarter Q4 --insights-only    # Insights only
+python scripts/05_upload_to_drive.py --quarter Q4 --markdown-only    # Markdown only
+```
+Uploads insights (JSON + MD) and/or markdown files to `Drive/<quarter>/<company>/`.
+
+### Pipeline Runner
+```bash
+python scripts/run_pipeline.py --quarter Q4 --all              # Run steps 0, 1, 3
+python scripts/run_pipeline.py --quarter Q4 --steps 0           # Download only
+python scripts/run_pipeline.py --quarter Q4 --steps 0,1         # Download + convert
+python scripts/run_pipeline.py --quarter Q4 --steps 3           # Upload only
+python scripts/run_pipeline.py --quarter Q4 --company Amazon    # Single company
+```
 
 ## Project Structure
 
 ```
 quarterly-financials/
+├── prompts/                # Claude Code prompts for analysis
+│   ├── financial_extraction.md
+│   ├── strategic_extraction.md
+│   ├── validation.md
+│   ├── normalization.md
+│   └── report_formatting.md
+├── scripts/                # Pipeline scripts
+│   ├── 00_download_from_drive.py  # Download PDFs from Drive
+│   ├── 01_convert_pdfs.py         # PDF -> Markdown
+│   ├── 05_upload_to_drive.py      # Upload results to Drive
+│   └── run_pipeline.py            # Pipeline orchestrator
 ├── src/                    # Python backend
-│   ├── agents/             # AI extraction agents (OpenAI + Claude)
-│   ├── cli/                # Typer CLI commands
+│   ├── agents/             # PDF converter, report generator
 │   ├── database/           # SQLAlchemy models and CRUD
 │   ├── extractors/         # File extractors (PDF, Markdown, Image)
 │   ├── gdrive/             # Google Drive sync
 │   ├── models/             # Pydantic data models
 │   └── parsers/            # Data normalization
-├── web/                    # Next.js frontend
-│   ├── app/                # App Router pages
-│   │   ├── page.tsx        # Dashboard
-│   │   ├── company/[slug]/ # Company detail page
-│   │   └── compare/        # Comparison tool
-│   ├── components/         # React components
-│   ├── lib/                # Utilities and data loader
-│   └── data/companies/     # JSON data files
 ├── data/
-│   ├── db/                 # SQLite database
-│   ├── raw/                # Downloaded source files
-│   └── processed/          # Processed JSON/MD results
-├── tests/                  # Test suite
-└── pyproject.toml          # Python project config
+│   ├── raw/                # Source PDF files
+│   ├── markdown/           # Converted Markdown files
+│   └── insights/           # Extracted JSON + formatted reports
+└── pyproject.toml
 ```
 
-## Web Dashboard
-
-The web interface provides a modern dashboard for exploring financial data.
-
-### Pages
-
-1. **Dashboard** (`/`)
-   - Overview of all 12 companies with key metrics
-   - Revenue comparison bar chart
-   - Filter by company type (crypto, ecommerce, tech, etc.)
-   - Sort by revenue, growth, margin, or name
-
-2. **Company Detail** (`/company/[ticker]`)
-   - Complete financial breakdown (Income Statement, Balance Sheet)
-   - Revenue segments pie chart
-   - Investment thesis and key highlights
-   - Guidance and management commentary
-   - Key positives and concerns
-   - Notable quotes from earnings calls
-
-3. **Compare** (`/compare`)
-   - Side-by-side comparison of 2-4 companies
-   - Revenue, growth, and margin charts
-   - Detailed comparison table
-   - Investment thesis comparison
-
-### Running the Web App
-
-```bash
-cd web
-npm install
-npm run dev
-```
-
-Open http://localhost:3000
-
-### Deploying to Vercel
-
-```bash
-cd web
-npx vercel
-```
-
-Or connect your GitHub repository to Vercel for automatic deployments.
-
-## CLI Usage
-
-### Prerequisites
-
-- Python 3.11+
-- Google Cloud project with Drive API enabled
-- OpenAI API key
-- Anthropic API key (for Claude validation)
-
-### Installation
-
-1. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -e .
-   ```
-
-### Configuration
-
-1. Copy the example environment file:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Configure the `.env` file:
-   ```env
-   # Google Drive
-   GDRIVE_CREDENTIALS_PATH=credentials.json
-   GDRIVE_TOKEN_PATH=token.json
-   GDRIVE_ROOT_FOLDER_ID=your_folder_id
-
-   # Database
-   DATABASE_URL=sqlite:///data/db/financials.db
-
-   # AI APIs
-   OPENAI_API_KEY=your_openai_key
-   ANTHROPIC_API_KEY=your_anthropic_key
-   ```
-
-3. Set up Google Drive API:
-   - Create a project on [Google Cloud Console](https://console.cloud.google.com)
-   - Enable the Google Drive API
-   - Create OAuth 2.0 credentials
-   - Download `credentials.json` to the project root
-
-### CLI Commands
-
-```bash
-# Initialize database
-qf init
-
-# Sync files from Google Drive
-qf sync
-qf sync --folder <folder_id>
-
-# Add companies
-qf add-company "Coinbase" --type crypto --ticker COIN
-qf add-company "Amazon" --type ecommerce --ticker AMZN
-
-# Extract data from files
-qf extract path/to/file.pdf
-qf extract data/raw/ --verbose
-
-# View status
-qf status
-
-# List downloaded files
-qf list
-
-# Compare companies
-qf compare "Coinbase" "Circle" --metric revenue
-
-# Export data
-qf export --output financials.csv --format csv
-qf export --output financials.json --format json
-```
-
-## Data Pipeline
-
-1. **Sync**: Download PDF reports from Google Drive
-2. **Extract**: Convert PDFs to markdown, extract data with OpenAI
-3. **Validate**: Review extracted data with Claude
-4. **Normalize**: Standardize metrics to common schema
-5. **Export**: Generate JSON and Markdown reports
-
-## Data Models
-
-### Core Financials (All Companies)
-- Revenue, Gross Profit, Operating Income, Net Income
-- Margins (Gross, Operating, Net)
-- EPS (Basic and Diluted)
-- Year-over-Year and Quarter-over-Quarter growth
-- Free Cash Flow, Balance Sheet metrics
-- Guidance and outlook
-
-### Sector-Specific Metrics
-
-**Crypto**
-- Trading Volume, Transaction Revenue
-- Assets on Platform, Custody Assets
-- Stablecoin Market Cap, Monthly Transacting Users
-
-**E-commerce**
-- GMV, Orders, Average Order Value
-- Active Customers, Prime Members
-- AWS Revenue, Advertising Revenue
-
-**Tech**
-- Data Center Revenue, AI Revenue
-- Gaming Revenue, Automotive Revenue
-
-## Current Companies (Q3 2025)
+## Supported Companies
 
 | Company | Ticker | Type | Revenue | YoY Growth |
 |---------|--------|------|---------|------------|
@@ -226,37 +100,42 @@ qf export --output financials.json --format json
 | YETI | YETI | retail | $488M | +2% |
 | FIGS | FIGS | ecommerce | $152M | +8% |
 
-## Google Drive Folder Structure
+## Prerequisites
 
+- Python 3.11+
+- Google Cloud project with Drive API enabled (for upload)
+
+### Installation
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -e .
 ```
-Root Folder/
-├── Q3 2025/
-│   ├── Coinbase/
-│   │   ├── Q3-25-Shareholder-Letter.pdf
-│   │   ├── Q3-25-Earnings-Call-Transcript.pdf
-│   │   ├── coinbase_q3_2025.json      # Generated
-│   │   └── coinbase_q3_2025.md        # Generated
-│   ├── Amazon/
-│   │   └── ...
-│   └── ...
-└── Q4 2025/
-    └── ...
+
+### Configuration
+
+```bash
+cp .env.example .env
+```
+
+Required in `.env`:
+```env
+# Google Drive (for download/upload)
+GOOGLE_CLIENT_ID=your_client_id
+GOOGLE_CLIENT_SECRET=your_client_secret
+GOOGLE_REFRESH_TOKEN=your_refresh_token
+GDRIVE_ROOT_FOLDER_ID=your_folder_id
+
+# LlamaParse (for PDF conversion)
+LLAMA_CLOUD_API_KEY=your_api_key
 ```
 
 ## Tech Stack
 
-**Backend (Python)**
-- Typer (CLI)
-- SQLAlchemy (Database)
-- pdfplumber (PDF extraction)
-- OpenAI API (Data extraction)
-- Anthropic API (Validation)
-
-**Frontend (Next.js)**
-- Next.js 14 (App Router)
-- Tailwind CSS
-- Recharts (Charts)
-- Lucide React (Icons)
+- **Python**: pdfplumber (PDF extraction), SQLAlchemy, Pydantic, Typer
+- **AI**: Claude Code (extraction, validation, formatting via prompts)
+- **Google Drive API**: Download source PDFs and upload results
 
 ## License
 

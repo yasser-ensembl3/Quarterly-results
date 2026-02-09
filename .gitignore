@@ -46,6 +46,15 @@ data/db/*.db
 # Downloaded raw files (large)
 data/raw/
 
+# Intermediate conversion files
+data/markdown/
+
+# Validation scratch
+data/validation/
+
+# Test data
+data/insights/TEST/
+
 # OS
 .DS_Store
 Thumbs.db

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Batch convert all PDFs to Markdown using LlamaParse."""
+"""Batch convert all PDFs to Markdown using LlamaParse.
+
+Usage:
+    python 01_convert_pdfs.py                    # Default Q3
+    python 01_convert_pdfs.py --quarter Q4       # Different quarter
+    python 01_convert_pdfs.py --force            # Re-convert all
+"""
 
 import sys
 from pathlib import Path
@@ -9,34 +15,34 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from agents.pdf_to_markdown import pdf_to_markdown
 
-# Directories
-RAW_DIR = Path(__file__).parent.parent / "data" / "raw" / "Q3"
-OUTPUT_DIR = Path(__file__).parent.parent / "data" / "markdown" / "Q3"
+# Base directories
+DATA_DIR = Path(__file__).parent.parent / "data"
+DEFAULT_QUARTER = "Q3"
 
 
-def get_all_pdfs():
+def get_all_pdfs(raw_dir: Path):
     """Get all PDFs from the raw directory."""
-    return list(RAW_DIR.rglob("*.pdf"))
+    return list(raw_dir.rglob("*.pdf"))
 
 
-def get_output_path(pdf_path: Path) -> Path:
+def get_output_path(pdf_path: Path, raw_dir: Path, output_dir: Path) -> Path:
     """Get the output markdown path for a PDF."""
     # Get relative path from RAW_DIR
-    rel_path = pdf_path.relative_to(RAW_DIR)
+    rel_path = pdf_path.relative_to(raw_dir)
     # Change extension to .md
-    output_path = OUTPUT_DIR / rel_path.with_suffix(".md")
+    output_path = output_dir / rel_path.with_suffix(".md")
     return output_path
 
 
-def is_already_converted(pdf_path: Path) -> bool:
+def is_already_converted(pdf_path: Path, raw_dir: Path, output_dir: Path) -> bool:
     """Check if a PDF has already been converted."""
-    output_path = get_output_path(pdf_path)
+    output_path = get_output_path(pdf_path, raw_dir, output_dir)
     return output_path.exists()
 
 
-def convert_pdf_to_markdown(pdf_path: Path) -> bool:
+def convert_pdf_to_markdown(pdf_path: Path, raw_dir: Path, output_dir: Path) -> bool:
     """Convert a single PDF to markdown."""
-    output_path = get_output_path(pdf_path)
+    output_path = get_output_path(pdf_path, raw_dir, output_dir)
 
     # Create output directory if needed
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -59,14 +65,25 @@ def convert_pdf_to_markdown(pdf_path: Path) -> bool:
         return False
 
 
-def main():
+def main(quarter: str = DEFAULT_QUARTER, force: bool = False):
     """Main function to convert all PDFs."""
-    all_pdfs = get_all_pdfs()
-    print(f"Found {len(all_pdfs)} PDFs in {RAW_DIR}")
+    raw_dir = DATA_DIR / "raw" / quarter
+    output_dir = DATA_DIR / "markdown" / quarter
 
-    # Filter out already converted
-    pdfs_to_convert = [p for p in all_pdfs if not is_already_converted(p)]
-    already_converted = len(all_pdfs) - len(pdfs_to_convert)
+    if not raw_dir.exists():
+        print(f"ERROR: Raw directory not found: {raw_dir}")
+        return
+
+    all_pdfs = get_all_pdfs(raw_dir)
+    print(f"Found {len(all_pdfs)} PDFs in {raw_dir}")
+
+    # Filter out already converted (unless force)
+    if force:
+        pdfs_to_convert = all_pdfs
+        already_converted = 0
+    else:
+        pdfs_to_convert = [p for p in all_pdfs if not is_already_converted(p, raw_dir, output_dir)]
+        already_converted = len(all_pdfs) - len(pdfs_to_convert)
 
     print(f"Already converted: {already_converted}")
     print(f"To convert: {len(pdfs_to_convert)}")
@@ -86,7 +103,7 @@ def main():
 
     for i, pdf_path in enumerate(pdfs_to_convert, 1):
         print(f"\n[{i}/{len(pdfs_to_convert)}]")
-        if convert_pdf_to_markdown(pdf_path):
+        if convert_pdf_to_markdown(pdf_path, raw_dir, output_dir):
             successes += 1
         else:
             failures.append(pdf_path)
@@ -106,4 +123,20 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Parse arguments
+    quarter = DEFAULT_QUARTER
+    force = False
+
+    args = sys.argv[1:]
+    i = 0
+    while i < len(args):
+        if args[i] == "--quarter" and i + 1 < len(args):
+            quarter = args[i + 1]
+            i += 2
+        elif args[i] == "--force":
+            force = True
+            i += 1
+        else:
+            i += 1
+
+    main(quarter=quarter, force=force)

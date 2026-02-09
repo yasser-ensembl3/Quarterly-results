@@ -1,0 +1,289 @@
+{
+  "company_info": {
+    "name": "Amazon.com, Inc.",
+    "ticker": "AMZN",
+    "quarter": "Q4",
+    "year": 2025,
+    "report_date": "2026-02-05",
+    "currency": "USD",
+    "company_type": "ecommerce"
+  },
+  "income_statement": {
+    "revenue": {
+      "value": 213386,
+      "unit": "millions",
+      "yoy_pct": 14,
+      "qoq_pct": 18.4
+    },
+    "cost_of_revenue": {
+      "value": 109959,
+      "unit": "millions"
+    },
+    "gross_profit": {
+      "value": 103427,
+      "margin_pct": 48.5
+    },
+    "operating_expenses": {
+      "value": 188409,
+      "breakdown": {
+        "cost_of_sales": 109959,
+        "fulfillment": 30826,
+        "technology_and_infrastructure": 29399,
+        "sales_and_marketing": 14264,
+        "general_and_administrative": 2704,
+        "other_operating_expense": 1257
+      }
+    },
+    "operating_income": {
+      "value": 24977,
+      "margin_pct": 11.7
+    },
+    "ebitda": {
+      "value": null,
+      "adjusted": null
+    },
+    "net_income": {
+      "value": 21192,
+      "margin_pct": 9.9,
+      "yoy_pct": 6
+    },
+    "eps": {
+      "basic": 1.98,
+      "diluted": 1.95,
+      "yoy_pct": 5
+    }
+  },
+  "balance_sheet": {
+    "cash_and_equivalents": 86810,
+    "short_term_investments": 36219,
+    "total_cash": 123029,
+    "accounts_receivable": 67729,
+    "inventory": 38325,
+    "total_assets": 818042,
+    "accounts_payable": 121909,
+    "short_term_debt": null,
+    "long_term_debt": 65648,
+    "total_debt": 65648,
+    "total_liabilities": 406977,
+    "shareholders_equity": 411065,
+    "net_cash_position": 57381
+  },
+  "cash_flow": {
+    "operating_cash_flow": 54459,
+    "investing_cash_flow": -47245,
+    "financing_cash_flow": 12291,
+    "capex": 39522,
+    "free_cash_flow": 11194,
+    "dividends_paid": null,
+    "share_repurchases": null
+  },
+  "revenue_breakdown": {
+    "by_segment": [
+      {
+        "name": "North America",
+        "revenue": 127083,
+        "pct_of_total": 59,
+        "yoy_pct": 10
+      },
+      {
+        "name": "International",
+        "revenue": 50724,
+        "pct_of_total": 24,
+        "yoy_pct": 17
+      },
+      {
+        "name": "AWS",
+        "revenue": 35579,
+        "pct_of_total": 17,
+        "yoy_pct": 24
+      }
+    ],
+    "by_geography": [
+      {
+        "region": "North America",
+        "revenue": 127083,
+        "pct_of_total": 59,
+        "yoy_pct": 10
+      },
+      {
+        "region": "International",
+        "revenue": 86303,
+        "pct_of_total": 41,
+        "yoy_pct": 19
+      }
+    ],
+    "by_product": [
+      {
+        "product": "Online stores",
+        "revenue": 82988,
+        "pct_of_total": 38.9
+      },
+      {
+        "product": "Third-party seller services",
+        "revenue": 52816,
+        "pct_of_total": 24.8
+      },
+      {
+        "product": "AWS",
+        "revenue": 35579,
+        "pct_of_total": 16.7
+      },
+      {
+        "product": "Advertising services",
+        "revenue": 21317,
+        "pct_of_total": 10.0
+      },
+      {
+        "product": "Subscription services",
+        "revenue": 13122,
+        "pct_of_total": 6.1
+      },
+      {
+        "product": "Physical stores",
+        "revenue": 5855,
+        "pct_of_total": 2.7
+      },
+      {
+        "product": "Other",
+        "revenue": 1709,
+        "pct_of_total": 0.8
+      }
+    ]
+  },
+  "operational_metrics": {
+    "employees": {
+      "count": 1576000,
+      "yoy_change": 1
+    },
+    "customers": {
+      "total": null,
+      "active": null,
+      "new": null,
+      "churn_pct": null
+    },
+    "users": {
+      "mau": null,
+      "dau": null,
+      "transacting": null,
+      "verified": null
+    },
+    "other_kpis": [
+      {
+        "name": "Rufus customers",
+        "value": 300,
+        "unit": "million customers",
+        "yoy_pct": null
+      },
+      {
+        "name": "Same-day delivery customers",
+        "value": 100,
+        "unit": "million customers",
+        "yoy_pct": null
+      },
+      {
+        "name": "Paid units growth",
+        "value": 12,
+        "unit": "percent yoy",
+        "yoy_pct": null
+      },
+      {
+        "name": "Seller unit mix",
+        "value": 61,
+        "unit": "percent of paid units",
+        "yoy_pct": null
+      },
+      {
+        "name": "Shipping costs",
+        "value": 31492,
+        "unit": "millions",
+        "yoy_pct": 10
+      },
+      {
+        "name": "Stock-based compensation",
+        "value": 4397,
+        "unit": "millions",
+        "yoy_pct": -12
+      },
+      {
+        "name": "Trainium + Graviton combined ARR",
+        "value": 10000,
+        "unit": "millions",
+        "yoy_pct": null
+      },
+      {
+        "name": "Amazon Connect ARR",
+        "value": 1000,
+        "unit": "millions",
+        "yoy_pct": null
+      }
+    ]
+  },
+  "sector_specific": {
+    "gmv": null,
+    "orders": null,
+    "aov": null,
+    "prime_members": null,
+    "third_party_sales_pct": 61,
+    "online_stores_revenue": 82988,
+    "third_party_seller_services": 52816,
+    "advertising_services": 21317,
+    "subscription_services": 13122,
+    "physical_stores": 5855,
+    "aws_revenue": 35579,
+    "aws_operating_margin": 35.0
+  },
+  "guidance": {
+    "next_quarter": {
+      "revenue_low": 173500,
+      "revenue_high": 178500,
+      "revenue_midpoint": 176000,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Operating income",
+          "low": 16500,
+          "high": 21500
+        },
+        {
+          "metric": "Revenue growth",
+          "low": 11,
+          "high": 15
+        },
+        {
+          "metric": "FX impact (favorable)",
+          "low": 1.8,
+          "high": 1.8
+        }
+      ]
+    },
+    "full_year": {
+      "revenue_low": null,
+      "revenue_high": null,
+      "eps_low": null,
+      "eps_high": null,
+      "other": [
+        {
+          "metric": "Total CapEx across Amazon in 2026",
+          "guidance": "~$200 billion"
+        }
+      ]
+    }
+  },
+  "capital_allocation": {
+    "capex": 128320,
+    "capex_guidance": "~$200 billion total CapEx across Amazon in 2026",
+    "dividends_per_share": null,
+    "buyback_authorization": null,
+    "buyback_remaining": null,
+    "shares_repurchased": null
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.97,
+    "data_completeness": "high",
+    "notes": "Comprehensive Q4 2025 data from earnings release. Operating income includes three special charges: $1.1B Italy tax dispute/lawsuit settlement, $730M severance costs, $610M asset impairments (physical stores). Without charges, operating income would have been $27.4B. Free cash flow is TTM figure ($11.2B) which declined 71% YoY due to $50.7B increase in property/equipment purchases for AI investments. Net income of $21.2B includes $1.2B non-operating income."
+  },
+  "_extraction_type": "financial",
+  "_model": "claude-opus-4-6",
+  "_source_file": "Amazon"
+}
